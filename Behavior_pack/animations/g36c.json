@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.g36c.first_person.fire": {
+      "animation_length": 6.0,
+      "timeline": {
+        "0.0": [
+          "/camerashake add @s[r=0.5] 0.15 0.1 rotational"
+        ]
+      }
+    },
+    "animation.g36c.first_person.aim_fire": {
+      "animation_length": 6.0,
+      "timeline": {
+        "0.0": [
+          "/camerashake add @s[r=0.5] 0.1 0.1 rotational"
+        ]
+      }
+    },
+    "animation.g36c.first_person.reload": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 34.0,
+      "timeline": {
+        "0.0": [
+          "/clear @s ammo:g36cclip 0 1"
+        ],
+        "3.0": [
+          "/clear @s gun:g36c_empty",
+          "/gamerule sendcommandfeedback false",
+          "/give @s gun:g36c",
+          "/gamerule sendcommandfeedback true"
+        ]
+      }
+    }
+  }
+}

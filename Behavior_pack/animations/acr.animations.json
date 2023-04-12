@@ -1,0 +1,35 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.acr.first_person.fire": {
+      "animation_length": 6.0,
+      "timeline": {
+        "0.0": [
+          "/camerashake add @s[r=0.5] 0.15 0.1 rotational"
+        ]
+      }
+    },
+    "animation.acr.first_person.aim_fire": {
+      "animation_length": 6.0,
+      "timeline": {
+        "0.0": [
+          "/camerashake add @s[r=0.5] 0.1 0.1 rotational"
+        ]
+      }
+    },
+    "animation.acr.first_person.reload": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 34.0,
+      "timeline": {
+        "0.0": [
+          "/clear @s ammo:acrclip 0 1"
+        ],
+        "2.8": [
+          "/gamerule sendcommandfeedback false",
+          "/replaceitem entity @s slot.weapon.mainhand 0 gun:acr",
+          "/gamerule sendcommandfeedback true"
+        ]
+      }
+    }
+  }
+}

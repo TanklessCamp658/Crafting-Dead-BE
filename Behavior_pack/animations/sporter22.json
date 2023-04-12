@@ -1,0 +1,36 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.sporter22.first_person.fire": {
+      "animation_length": 6.0,
+      "timeline": {
+        "0.0": [
+          "/camerashake add @s[r=0.5] 0.15 0.1 rotational"
+        ]
+      }
+    },
+    "animation.sporter22.first_person.aim_fire": {
+      "animation_length": 6.0,
+      "timeline": {
+        "0.0": [
+          "/camerashake add @s[r=0.5] 0.1 0.1 rotational"
+        ]
+      }
+    },
+    "animation.sporter22.first_person.reload": {
+      "loop": "hold_on_last_frame",
+      "animation_length": 34.0,
+      "timeline": {
+        "0.0": [
+          "/clear @s ammo:sporter22clip 0 1"
+        ],
+        "3.0": [
+          "/clear @s gun:sporter22_empty",
+          "/gamerule sendcommandfeedback false",
+          "/give @s gun:sporter22",
+          "/gamerule sendcommandfeedback true"
+        ]
+      }
+    }
+  }
+}
