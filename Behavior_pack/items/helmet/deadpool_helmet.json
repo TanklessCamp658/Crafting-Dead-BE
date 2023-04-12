@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cd:deadpool_helmet",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 9,
+				"slot": "armor_head"
+			},
+			"minecraft:durability": {
+				"max_durability": 170,
+				"damage_chance": {
+					"min": 60,
+					"max": 100
+				}
+			},
+			"minecraft:icon": {
+				"texture": "cd_deadpool_helmet"
+			},
+			"minecraft:render_offsets": "helmets",
+			"minecraft:armor": {
+				"protection": 0
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			}
+		},
+		"events": {}
+	}
+}

@@ -1,0 +1,45 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:syringe"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:render_offsets": {
+        "main_hand": {
+          "third_person": {
+            "scale": [
+              0.05,
+              0.05,
+              0.05
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.018999999999988602,
+              0.018999999999988602,
+              0.018999999999988602
+            ]
+          }
+        },
+        "off_hand": {
+          "third_person": {
+            "scale": [
+              0.05,
+              0.05,
+              0.05
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.018999999999988602,
+              0.018999999999988602,
+              0.018999999999988602
+            ]
+          }
+        }
+      }
+    }
+  }
+}
