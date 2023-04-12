@@ -1,0 +1,84 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.firearm_item": {
+			"geometry": "Array.item_geo[q.skin_id]",
+			"materials": [{"*":"material.default"}],
+			"textures": ["Array.item_texture[q.skin_id]"],
+			"arrays": {
+				"geometries": {
+					"Array.item_geo": [
+						"geometry.blank",
+						"geometry.acr", 
+						"geometry.ak47", 
+						"geometry.as50", 
+						"geometry.awp", 
+						"geometry.deagle", 
+						"geometry.dmr", 
+						"geometry.fn57", 
+						"geometry.fnfal", 
+						"geometry.g36c", 
+						"geometry.glock18", 
+						"geometry.hk417", 
+						"geometry.m1garand", 
+						"geometry.m4a1", 
+						"geometry.m107", 
+						"geometry.m240b", 
+						"geometry.m9", 
+						"geometry.m1911", 
+						"geometry.mac10", 
+						"geometry.magnum", 
+						"geometry.minigun", 
+						"geometry.mp5", 
+						"geometry.mossberg500", 
+						"geometry.mpt55", 
+						"geometry.mk48mod", 
+						"geometry.p90", 
+						"geometry.p250", 
+						"geometry.rpk", 
+						"geometry.scar", 
+						"geometry.r870", 
+						"geometry.sporter22", 
+						"geometry.vector"
+					]
+				},
+				"textures": {
+					"Array.item_texture": [
+						"texture.blank",
+						"texture.acr", 
+						"texture.ak47", 
+						"texture.as50", 
+						"texture.awp", 
+						"texture.deagle", 
+						"texture.dmr", 
+						"texture.fn57", 
+						"texture.fnfal", 
+						"texture.g36c", 
+						"texture.glock18", 
+						"texture.hk417", 
+						"texture.m1garand", 
+						"texture.m4a1", 
+						"texture.m107", 
+						"texture.m240b", 
+						"texture.m9", 
+						"texture.m1911", 
+						"texture.mac10", 
+						"texture.magnum", 
+						"texture.minigun", 
+						"texture.mp5", 
+						"texture.mossberg500", 
+						"texture.mpt55", 
+						"texture.mk48mod", 
+						"texture.p90", 
+						"texture.p250", 
+						"texture.rpk", 
+						"texture.scar", 
+						"texture.r870", 
+						"texture.sporter22", 
+						"texture.vector"
+					]
+				}
+			} 
+		}
+	}
+}

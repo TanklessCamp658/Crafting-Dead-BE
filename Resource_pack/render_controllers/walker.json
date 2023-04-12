@@ -1,0 +1,45 @@
+{
+ "format_version": "1.8.0",
+ "render_controllers": {
+  "controller.render.walker": {
+   "arrays": {
+    "textures": {
+     "Array.variants": [
+      "Texture.z",
+      "Texture.z2",
+      "Texture.z3",
+      "Texture.z4",
+      "Texture.z5",
+      "Texture.z6",
+      "Texture.z7",
+      "Texture.z8",
+      "Texture.z9",
+      "Texture.z10",
+      "Texture.z11",
+      "Texture.z12",
+      "Texture.z13",
+      "Texture.z14",
+      "Texture.z15",
+      "Texture.z16",
+      "Texture.z17",
+      "Texture.z18",
+      "Texture.z19",
+      "Texture.z20",
+      "Texture.z21",
+      "Texture.z22",
+      "Texture.z23"
+     ]
+    }
+   },
+   "geometry": "Geometry.default",
+   "materials": [
+    {
+     "*": "Material.default"
+    }
+   ],
+   "textures": [
+    "Array.variants[query.variant]"
+   ]
+  }
+ }
+}

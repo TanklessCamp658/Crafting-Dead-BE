@@ -1,0 +1,562 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.player.first_person.acr": {
+      "geometry": "geometry.acr",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.acr" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.acr": {
+      "geometry": "geometry.acr",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.acr" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.ak47": {
+      "geometry": "geometry.ak47",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.ak47" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.ak47": {
+      "geometry": "geometry.ak47",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.ak47" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.as50": {
+      "geometry": "geometry.as50",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.as50" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.as50": {
+      "geometry": "geometry.as50",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.as50" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.awp": {
+      "geometry": "geometry.awp",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.awp" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.awp": {
+      "geometry": "geometry.awp",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.awp" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.deagle": {
+      "geometry": "geometry.deagle",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.deagle" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.deagle": {
+      "geometry": "geometry.deagle",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.deagle" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.dmr": {
+      "geometry": "geometry.dmr",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.dmr" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.dmr": {
+      "geometry": "geometry.dmr",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.dmr" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.fn57": {
+      "geometry": "geometry.fn57",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.fn57" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.fn57": {
+      "geometry": "geometry.fn57",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.fn57" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.fnfal": {
+      "geometry": "geometry.fnfal",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.fnfal" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.fnfal": {
+      "geometry": "geometry.fnfal",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.fnfal" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.g36c": {
+      "geometry": "geometry.g36c",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.g36c" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.g36c": {
+      "geometry": "geometry.g36c",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.g36c" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.glock18": {
+      "geometry": "geometry.glock18",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.glock18" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.glock18": {
+      "geometry": "geometry.glock18",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.glock18" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.hk417": {
+      "geometry": "geometry.hk417",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.hk417" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.hk417": {
+      "geometry": "geometry.hk417",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.hk417" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.m1garand": {
+      "geometry": "geometry.m1garand",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.m1garand" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.m1garand": {
+      "geometry": "geometry.m1garand",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.m1garand" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.m4a1": {
+      "geometry": "geometry.m4a1",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.m4a1" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.m4a1": {
+      "geometry": "geometry.m4a1",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.m4a1" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.m107": {
+      "geometry": "geometry.m107",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.m107" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.m107": {
+      "geometry": "geometry.m107",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.m107" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    
+    "controller.render.player.first_person.m240b": {
+      "geometry": "geometry.m240b",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.m240b" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.m240b": {
+      "geometry": "geometry.m240b",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.m240b" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.m9": {
+      "geometry": "geometry.m9",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.m9" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.m9": {
+      "geometry": "geometry.m9",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.m9" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.m1911": {
+      "geometry": "geometry.m1911",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.m1911" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.m1911": {
+      "geometry": "geometry.m1911",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.m1911" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.mac10": {
+      "geometry": "geometry.mac10",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.mac10" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.mac10": {
+      "geometry": "geometry.mac10",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.mac10" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.magnum": {
+      "geometry": "geometry.magnum",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.magnum" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.magnum": {
+      "geometry": "geometry.magnum",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.magnum" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.mossberg500": {
+      "geometry": "geometry.mossberg500",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.mossberg500" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.mossberg500": {
+      "geometry": "geometry.mossberg500",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.mossberg500" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.mp5": {
+      "geometry": "geometry.mp5",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.mp5" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.mp5": {
+      "geometry": "geometry.mp5",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.mp5" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.mpt55": {
+      "geometry": "geometry.mpt55",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.mpt55" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.mpt55": {
+      "geometry": "geometry.mpt55",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.mpt55" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.mk48mod": {
+      "geometry": "geometry.mk48mod",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.mk48mod" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.mk48mod": {
+      "geometry": "geometry.mk48mod",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.mk48mod" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.minigun": {
+      "geometry": "geometry.minigun",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.minigun" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.minigun": {
+      "geometry": "geometry.minigun",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.minigun" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.p90": {
+      "geometry": "geometry.p90",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.p90" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 } 
+    },
+    "controller.render.player.third_person.p90": {
+      "geometry": "geometry.p90",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.p90" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.p250": {
+      "geometry": "geometry.p250",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.p250" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.p250": {
+      "geometry": "geometry.p250",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.p250" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.rpk": {
+      "geometry": "geometry.rpk",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.rpk" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.rpk": {
+      "geometry": "geometry.rpk",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.rpk" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.scar": {
+      "geometry": "geometry.scar",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.scar" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.scar": {
+      "geometry": "geometry.scar",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.scar" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.sporter22": {
+      "geometry": "geometry.sporter22",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.sporter22" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.sporter22": {
+      "geometry": "geometry.sporter22",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.sporter22" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.r870": {
+      "geometry": "geometry.r870",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.r870" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.r870": {
+      "geometry": "geometry.r870",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.r870" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+
+    "controller.render.player.first_person.vector": {
+      "geometry": "geometry.vector",
+      "materials": [
+        { "*": "material.default" },
+        { "eye_sight": "material.transparent" }
+      ],
+      "textures": [ "texture.vector" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+    },
+    "controller.render.player.third_person.vector": {
+      "geometry": "geometry.vector",
+      "materials": [
+        { "*": "material.default" }
+      ],
+      "textures": [ "texture.vector" ],
+      "is_hurt_color": { "r": 0.0, "g": 0.0, "b": 0.0, "a": 0.0 }
+
+    }
+  }
+}

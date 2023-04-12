@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.riotvest",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 8.5, -3.5], "size": [8, 12, 1], "inflate": 0.5, "uv": [0, 0]},
+						{"origin": [4, 11, -2], "size": [1, 10, 4], "uv": [18, 8]},
+						{"origin": [-5, 11, -2], "size": [1, 10, 4], "uv": [18, 8]},
+						{"origin": [2.5, 20, -2], "size": [6, 4, 4], "inflate": 0.25, "uv": [18, 0]},
+						{"origin": [-8.5, 20, -2], "size": [6, 4, 4], "inflate": 0.25, "uv": [18, 0]},
+						{"origin": [-4, 10.5, 2.5], "size": [8, 10, 1], "inflate": 0.5, "uv": [0, 13]}
+					]
+				}
+			]
+		}
+	]
+}
