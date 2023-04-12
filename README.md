@@ -19,10 +19,6 @@ Any Youtubers or Twitch streamers are welcome to create videos using our mods an
 Please contact brad@nexusnode.com or Brad#8888 on Discord if you have any questions or concerns. Commercial use through the official modpack is granted (Such as adding servers through the official modpack) anything that falls outside of the official modpack requires authrorisation. 
 
 # Credit
-- NEXUSNODE
-- CakeBrains
-
-# Credit
 (Java Edition):
 - NEXUSNODE
 - CakeBrains
