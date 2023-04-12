@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Created by tanklesscamp658. All right reserved.",
+        "name": "Crafting Dead BE - v1.0.0",
+        "uuid": "93e76fa8-adb9-4bf6-a867-ccdbeea8f5a5",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Created by tanklesscamp658. All right reserved.",
+            "type": "resources",
+            "uuid": "88210352-5ae6-41ea-a46f-a1162bf427cd",
+            "version": [1, 0, 0]
+        }
+    ]
+}
