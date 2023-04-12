@@ -1,0 +1,687 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.reload_acr": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'acrclip' && query.get_equipped_item_name('main_hand') == 'acr_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "acr.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_ak47": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'akm30rnd' && query.get_equipped_item_name('main_hand') == 'ak47_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "ak47.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_as50": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'as50clip' && query.get_equipped_item_name('main_hand') == 'as50_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "as50.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_awp": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'awpclip' && query.get_equipped_item_name('main_hand') == 'awp_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "awp.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_deagle": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'deagleclip' && query.get_equipped_item_name('main_hand') == 'deagle_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "deagle.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_dmr": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'dmrclip' && query.get_equipped_item_name('main_hand') == 'dmr_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "dmr.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_fn57": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'fn57clip' && query.get_equipped_item_name('main_hand') == 'fn57_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "fn57.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_fnfal": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'fnfalclip' && query.get_equipped_item_name('main_hand') == 'fnfal_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "fnfal.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_g36c": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'g36cclip' && query.get_equipped_item_name('main_hand') == 'g36c_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "g36c.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_glock18": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'glock18clip' && query.get_equipped_item_name('main_hand') == 'glock18_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "glock18.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_hk417": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'hk417clip' && query.get_equipped_item_name('main_hand') == 'hk417_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "hk417.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_m1garand": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'm1garandclip' && query.get_equipped_item_name('main_hand') == 'm1garand_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "m1garand.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_m4a1": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'stanag30rnd' && query.get_equipped_item_name('main_hand') == 'm4a1_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "m4a1.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_m9": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'm9clip' && query.get_equipped_item_name('main_hand') == 'm9_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "m9.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_m107": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'm107clip' && query.get_equipped_item_name('main_hand') == 'm107_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "m107.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_m240b": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'm240bclip' && query.get_equipped_item_name('main_hand') == 'm240b_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "m240b.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_m1911": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'm1911clip' && query.get_equipped_item_name('main_hand') == 'm1911_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "m1911.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_mac10": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'mac10clip' && query.get_equipped_item_name('main_hand') == 'mac10_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "mac10.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_magnum": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'magnumclip' && query.get_equipped_item_name('main_hand') == 'magnum_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "magnum.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_minigun": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'minigunclip' && query.get_equipped_item_name('main_hand') == 'minigun_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "minigun.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_mk48mod": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'mk48modclip' && query.get_equipped_item_name('main_hand') == 'mk48mod_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "mk48mod.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_mossberg500": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'shotgunrounds' && query.get_equipped_item_name('main_hand') == 'mossberg500_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "mossberg500.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_mp5": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'mp5clip' && query.get_equipped_item_name('main_hand') == 'mp5_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "mp5.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_mpt55": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'stanag30rnd' && query.get_equipped_item_name('main_hand') == 'mpt55_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "mpt55.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_p250": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'p250clip' && query.get_equipped_item_name('main_hand') == 'p250_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "p250.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_r870": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'shotgunrounds' && query.get_equipped_item_name('main_hand') == 'r870_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "r870.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_rpk": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'rpkclip' && query.get_equipped_item_name('main_hand') == 'rpk_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "rpk.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_scar": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'stanag30rnd' && query.get_equipped_item_name('main_hand') == 'scar_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "scar.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_sporter22": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'sporter22clip' && query.get_equipped_item_name('main_hand') == 'sporter22_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "sporter22.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_vector": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'vectorclip' && query.get_equipped_item_name('main_hand') == 'vector_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "vector.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.reload_p90": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "reload": "query.get_equipped_item_name('off_hand') == 'p90clip' && query.get_equipped_item_name('main_hand') == 'p90_empty'"
+            }
+          ]
+        },
+        "reload": {
+          "animations": [
+            "p90.first_person.reload"
+          ],
+          "transitions": [
+            {
+              "default": "query.all_animations_finished"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

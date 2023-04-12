@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bleed": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"bleed": "query.is_tamed"
+						}
+					]
+				},
+				"bleed": {
+					"transitions": [
+						{
+							"default": "(5.0)"
+						}
+					],
+					"on_entry": [
+						"/effect @s hunger 1 1 true"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.titles_fn": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"walking": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/function thirst_titles"
+					]
+				},
+				"walking": {
+					"transitions": [
+						{
+							"default": "(1.0)"
+						}
+					],
+					"on_entry": [
+						"/function thirst_titles"
+					]
+				}
+			}
+		}
+	}
+}
