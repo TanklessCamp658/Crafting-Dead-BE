@@ -1,0 +1,67 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "backpack:smallgreen",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {},
+    "events": {
+      "minecraft:entity_spawned": {}
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "smallbackpack"
+        ]
+      },
+      "minecraft:fire_immune": false,
+      "minecraft:health": {
+        "value": 20,
+        "max": 20
+      },
+      "minecraft:inventory": {
+        "inventory_size": 9,
+        "container_type": "inventory",
+        "restrict_to_owner": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.8,
+        "height": 1
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/backpack.json"
+      },
+      "minecraft:is_stackable": {},
+      "minecraft:knockback_resistance": {
+        "value": 100,
+        "max": 100
+      },
+      "minecraft:physics": {
+        "has_gravity": true,
+        "has_collision": true
+      },
+      "minecraft:push_through": {
+        "value": 1
+      },
+      "minecraft:nameable": {
+        "alwaysShow": true
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/empty.json",
+        "slot_drop_chance": [
+          {
+            "slot": "slot.inventory",
+            "drop_chance": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1345 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "cd:firearm_item",
+      "is_summonable": false,
+      "is_spawnable": false,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "gun:acr": {
+        "minecraft:skin_id": { "value": 1 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:acr_empty": {
+        "minecraft:skin_id": { "value": 2 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:ak47": {
+        "minecraft:skin_id": { "value": 3 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:ak47_empty": {
+        "minecraft:skin_id": { "value": 4 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:as50": {
+        "minecraft:skin_id": { "value": 5 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:as50_empty": {
+        "minecraft:skin_id": { "value": 6 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:awp": {
+        "minecraft:skin_id": { "value": 7 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:awp_empty": {
+        "minecraft:skin_id": { "value": 8 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:deagle": {
+        "minecraft:skin_id": { "value": 9 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:deagle_empty": {
+        "minecraft:skin_id": { "value": 10 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:dmr": {
+        "minecraft:skin_id": { "value": 11 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:dmr_empty": {
+        "minecraft:skin_id": { "value": 12 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:fn57": {
+        "minecraft:skin_id": { "value": 13 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:fn57_empty": {
+        "minecraft:skin_id": { "value": 14 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:fnfal": {
+        "minecraft:skin_id": { "value": 15 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:fnfal_empty": {
+        "minecraft:skin_id": { "value": 16 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:g36c": {
+        "minecraft:skin_id": { "value": 17 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:g36c_empty": {
+        "minecraft:skin_id": { "value": 18 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:glock18": {
+        "minecraft:skin_id": { "value": 19 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:glock18_empty": {
+        "minecraft:skin_id": { "value": 20 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:hk417": {
+        "minecraft:skin_id": { "value": 21 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:hk417_empty": {
+        "minecraft:skin_id": { "value": 22 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:m1garand": {
+        "minecraft:skin_id": { "value": 23 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:m1garand_empty": {
+        "minecraft:skin_id": { "value": 24 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:m4a1": {
+        "minecraft:skin_id": { "value": 25 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:m4a1_empty": {
+        "minecraft:skin_id": { "value": 26 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:m9": {
+        "minecraft:skin_id": { "value": 27 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:m9_empty": {
+        "minecraft:skin_id": { "value": 28 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:m107": {
+        "minecraft:skin_id": { "value": 29 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:m107_empty": {
+        "minecraft:skin_id": { "value": 30 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:m240b": {
+        "minecraft:skin_id": { "value": 31 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:m240b_empty": {
+        "minecraft:skin_id": { "value": 32 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:m1911": {
+        "minecraft:skin_id": { "value": 33 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:m1911_empty": {
+        "minecraft:skin_id": { "value": 34 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:mac10": {
+        "minecraft:skin_id": { "value": 35 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:mac10_empty": {
+        "minecraft:skin_id": { "value": 36 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:magnum": {
+        "minecraft:skin_id": { "value": 37 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:magnum_empty": {
+        "minecraft:skin_id": { "value": 38 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:minigun": {
+        "minecraft:skin_id": { "value": 39 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:minigun_empty": {
+        "minecraft:skin_id": { "value": 40 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:mk48mod": {
+        "minecraft:skin_id": { "value": 41 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:mk48mod_empty": {
+        "minecraft:skin_id": { "value": 42 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:mossberg500": {
+        "minecraft:skin_id": { "value": 43 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:mossberg500_empty": {
+        "minecraft:skin_id": { "value": 44 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:mp5": {
+        "minecraft:skin_id": { "value": 45 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:mp5_empty": {
+        "minecraft:skin_id": { "value": 46 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:mpt55": {
+        "minecraft:skin_id": { "value": 47 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:mpt55_empty": {
+        "minecraft:skin_id": { "value": 48 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:p90": {
+        "minecraft:skin_id": { "value": 49 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:p90_empty": {
+        "minecraft:skin_id": { "value": 50 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:p250": {
+        "minecraft:skin_id": { "value": 51 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:p250_empty": {
+        "minecraft:skin_id": { "value": 52 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:r870": {
+        "minecraft:skin_id": { "value": 53 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:r870_empty": {
+        "minecraft:skin_id": { "value": 54 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:rpk": {
+        "minecraft:skin_id": { "value": 55 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:rpk_empty": {
+        "minecraft:skin_id": { "value": 56 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:scar": {
+        "minecraft:skin_id": { "value": 57 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:scar_empty": {
+        "minecraft:skin_id": { "value": 58 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:sporter22": {
+        "minecraft:skin_id": { "value": 59 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:sporter22_empty": {
+        "minecraft:skin_id": { "value": 60 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+      "gun:vector": {
+        "minecraft:skin_id": { "value": 61 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+      "gun:vector_empty": {
+        "minecraft:skin_id": { "value": 62 },
+        "minecraft:scale": { "value": 0.6 }
+      },
+
+
+      "cd:despawn_item": {
+        "minecraft:despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:skin_id": {
+        "value": 0
+      },
+      "minecraft:type_family": {
+        "family": [ "item" ]
+      },
+      "minecraft:nameable": {},
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": false
+        }
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.15,
+        "height": 0.15
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.acr" }
+              ]
+            },
+            "event": "gun:acr"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.acr.empty" }
+              ]
+            },
+            "event": "gun:acr_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.ak47" }
+              ]
+            },
+            "event": "gun:ak47"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.ak47.empty" }
+              ]
+            },
+            "event": "gun:ak47_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.as50" }
+              ]
+            },
+            "event": "gun:as50"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.as50.empty" }
+              ]
+            },
+            "event": "gun:as50_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.awp" }
+              ]
+            },
+            "event": "gun:awp"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.awp.empty" }
+              ]
+            },
+            "event": "gun:awp_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.deagle" }
+              ]
+            },
+            "event": "gun:deagle"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.deagle.empty" }
+              ]
+            },
+            "event": "gun:deagle_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.dmr" }
+              ]
+            },
+            "event": "gun:dmr"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.dmr.empty" }
+              ]
+            },
+            "event": "gun:dmr_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.fn57" }
+              ]
+            },
+            "event": "gun:fn57"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.fn57.empty" }
+              ]
+            },
+            "event": "gun:fn57_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.fnfal" }
+              ]
+            },
+            "event": "gun:fnfal"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.fnfal.empty" }
+              ]
+            },
+            "event": "gun:fnfal_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.g36c" }
+              ]
+            },
+            "event": "gun:g36c"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.g36c.empty" }
+              ]
+            },
+            "event": "gun:g36c_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.glock18" }
+              ]
+            },
+            "event": "gun:glock18"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.glock18.empty" }
+              ]
+            },
+            "event": "gun:glock18_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.hk417" }
+              ]
+            },
+            "event": "gun:hk417"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.hk417.empty" }
+              ]
+            },
+            "event": "gun:hk417_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m1garand" }
+              ]
+            },
+            "event": "gun:m1garand"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m1garand.empty" }
+              ]
+            },
+            "event": "gun:m1garand_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m4a1" }
+              ]
+            },
+            "event": "gun:m4a1"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m4a1.empty" }
+              ]
+            },
+            "event": "gun:m4a1_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m9" }
+              ]
+            },
+            "event": "gun:m9"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m9.empty" }
+              ]
+            },
+            "event": "gun:m9_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m107" }
+              ]
+            },
+            "event": "gun:m107"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m107.empty" }
+              ]
+            },
+            "event": "gun:m107_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m240b" }
+              ]
+            },
+            "event": "gun:m240b"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m240b.empty" }
+              ]
+            },
+            "event": "gun:m240b_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m1911" }
+              ]
+            },
+            "event": "gun:m1911"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.m1911.empty" }
+              ]
+            },
+            "event": "gun:m1911_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mac10" }
+              ]
+            },
+            "event": "gun:mac10"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mac10.empty" }
+              ]
+            },
+            "event": "gun:mac10_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.magnum" }
+              ]
+            },
+            "event": "gun:magnum"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.magnum.empty" }
+              ]
+            },
+            "event": "gun:magnum_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.minigun" }
+              ]
+            },
+            "event": "gun:minigun"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.minigun.empty" }
+              ]
+            },
+            "event": "gun:minigun_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mk48mod" }
+              ]
+            },
+            "event": "gun:mk48mod"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mk48mod.empty" }
+              ]
+            },
+            "event": "gun:mk48mod_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mossberg500" }
+              ]
+            },
+            "event": "gun:mossberg500"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mossberg500.empty" }
+              ]
+            },
+            "event": "gun:mossberg500_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mp5" }
+              ]
+            },
+            "event": "gun:mp5"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mp5.empty" }
+              ]
+            },
+            "event": "gun:mp5_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mpt55" }
+              ]
+            },
+            "event": "gun:mpt55"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.mpt55.empty" }
+              ]
+            },
+            "event": "gun:mpt55_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.p90" }
+              ]
+            },
+            "event": "gun:p90"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.p90.empty" }
+              ]
+            },
+            "event": "gun:p90_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.p250" }
+              ]
+            },
+            "event": "gun:p250"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.p250.empty" }
+              ]
+            },
+            "event": "gun:p250_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.r870" }
+              ]
+            },
+            "event": "gun:r870"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.r870.empty" }
+              ]
+            },
+            "event": "gun:r870_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.rpk" }
+              ]
+            },
+            "event": "gun:rpk"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.rpk.empty" }
+              ]
+            },
+            "event": "gun:rpk_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.scar" }
+              ]
+            },
+            "event": "gun:scar"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.scar.empty" }
+              ]
+            },
+            "event": "gun:scar_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.sporter22" }
+              ]
+            },
+            "event": "gun:sporter22"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.sporter22.empty" }
+              ]
+            },
+            "event": "gun:sporter22_empty"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.vector" }
+              ]
+            },
+            "event": "gun:vector"
+          },
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": true },
+                { "test": "has_tag", "operator": "==", "subject": "other", "value": "item.vector.empty" }
+              ]
+            },
+            "event": "gun:vector_empty"
+          },
+
+
+
+          {
+            "filters": {
+              "all_of": [
+                { "test": "is_riding", "operator": "==", "subject": "self", "value": false }
+              ]
+            },
+            "event": "cd:despawn_item"
+          }
+        ]
+      }
+    },
+    "events": {
+      "gun:acr": {
+        "add": {
+          "component_groups": [
+            "gun:acr"
+          ]
+        }
+      },
+      "gun:acr_empty": {
+        "add": {
+          "component_groups": [
+            "gun:acr_empty"
+          ]
+        }
+      },
+      "gun:ak47": {
+        "add": {
+          "component_groups": [
+            "gun:ak47"
+          ]
+        }
+      },
+      "gun:ak47_empty": {
+        "add": {
+          "component_groups": [
+            "gun:ak47_empty"
+          ]
+        }
+      },
+      "gun:as50": {
+        "add": {
+          "component_groups": [
+            "gun:as50"
+          ]
+        }
+      },
+      "gun:as50_empty": {
+        "add": {
+          "component_groups": [
+            "gun:as50_empty"
+          ]
+        }
+      },
+      "gun:awp": {
+        "add": {
+          "component_groups": [
+            "gun:awp"
+          ]
+        }
+      },
+      "gun:awp_empty": {
+        "add": {
+          "component_groups": [
+            "gun:awp_empty"
+          ]
+        }
+      },
+      "gun:deagle": {
+        "add": {
+          "component_groups": [
+            "gun:deagle"
+          ]
+        }
+      },
+      "gun:deagle_empty": {
+        "add": {
+          "component_groups": [
+            "gun:deagle_empty"
+          ]
+        }
+      },
+      "gun:dmr": {
+        "add": {
+          "component_groups": [
+            "gun:dmr"
+          ]
+        }
+      },
+      "gun:dmr_empty": {
+        "add": {
+          "component_groups": [
+            "gun:dmr_empty"
+          ]
+        }
+      },
+      "gun:fn57": {
+        "add": {
+          "component_groups": [
+            "gun:fn57"
+          ]
+        }
+      },
+      "gun:fn57_empty": {
+        "add": {
+          "component_groups": [
+            "gun:fn57_empty"
+          ]
+        }
+      },
+      "gun:fnfal": {
+        "add": {
+          "component_groups": [
+            "gun:fnfal"
+          ]
+        }
+      },
+      "gun:fnfal_empty": {
+        "add": {
+          "component_groups": [
+            "gun:fnfal_empty"
+          ]
+        }
+      },
+      "gun:g36c": {
+        "add": {
+          "component_groups": [
+            "gun:g36c"
+          ]
+        }
+      },
+      "gun:g36c_empty": {
+        "add": {
+          "component_groups": [
+            "gun:g36c_empty"
+          ]
+        }
+      },
+      "gun:glock18": {
+        "add": {
+          "component_groups": [
+            "gun:glock18"
+          ]
+        }
+      },
+      "gun:glock18_empty": {
+        "add": {
+          "component_groups": [
+            "gun:glock18_empty"
+          ]
+        }
+      },
+      "gun:hk417": {
+        "add": {
+          "component_groups": [
+            "gun:hk417"
+          ]
+        }
+      },
+      "gun:hk417_empty": {
+        "add": {
+          "component_groups": [
+            "gun:hk417_empty"
+          ]
+        }
+      },
+      "gun:m1garand": {
+        "add": {
+          "component_groups": [
+            "gun:m1garand"
+          ]
+        }
+      },
+      "gun:m1garand_empty": {
+        "add": {
+          "component_groups": [
+            "gun:m1garand_empty"
+          ]
+        }
+      },
+      "gun:m4a1": {
+        "add": {
+          "component_groups": [
+            "gun:m4a1"
+          ]
+        }
+      },
+      "gun:m4a1_empty": {
+        "add": {
+          "component_groups": [
+            "gun:m4a1_empty"
+          ]
+        }
+      },
+      "gun:m9": {
+        "add": {
+          "component_groups": [
+            "gun:m9"
+          ]
+        }
+      },
+      "gun:m9_empty": {
+        "add": {
+          "component_groups": [
+            "gun:m9_empty"
+          ]
+        }
+      },
+      "gun:m107": {
+        "add": {
+          "component_groups": [
+            "gun:m107"
+          ]
+        }
+      },
+      "gun:m107_empty": {
+        "add": {
+          "component_groups": [
+            "gun:m107_empty"
+          ]
+        }
+      },
+      "gun:m240b": {
+        "add": {
+          "component_groups": [
+            "gun:m240b"
+          ]
+        }
+      },
+      "gun:m240b_empty": {
+        "add": {
+          "component_groups": [
+            "gun:m240b_empty"
+          ]
+        }
+      },
+      "gun:m1911": {
+        "add": {
+          "component_groups": [
+            "gun:m1911"
+          ]
+        }
+      },
+      "gun:m1911_empty": {
+        "add": {
+          "component_groups": [
+            "gun:m1911_empty"
+          ]
+        }
+      },
+      "gun:mac10": {
+        "add": {
+          "component_groups": [
+            "gun:mac10"
+          ]
+        }
+      },
+      "gun:mac10_empty": {
+        "add": {
+          "component_groups": [
+            "gun:mac10_empty"
+          ]
+        }
+      },
+      "gun:magnum": {
+        "add": {
+          "component_groups": [
+            "gun:magnum"
+          ]
+        }
+      },
+      "gun:magnum_empty": {
+        "add": {
+          "component_groups": [
+            "gun:magnum_empty"
+          ]
+        }
+      },
+      "gun:minigun": {
+        "add": {
+          "component_groups": [
+            "gun:minigun"
+          ]
+        }
+      },
+      "gun:minigun_empty": {
+        "add": {
+          "component_groups": [
+            "gun:minigun_empty"
+          ]
+        }
+      },
+      "gun:mk48mod": {
+        "add": {
+          "component_groups": [
+            "gun:mk48mod"
+          ]
+        }
+      },
+      "gun:mk48mod_empty": {
+        "add": {
+          "component_groups": [
+            "gun:mk48mod_empty"
+          ]
+        }
+      },
+      "gun:mossberg500": {
+        "add": {
+          "component_groups": [
+            "gun:mossberg500"
+          ]
+        }
+      },
+      "gun:mossberg500_empty": {
+        "add": {
+          "component_groups": [
+            "gun:mossberg500_empty"
+          ]
+        }
+      },
+      "gun:mp5": {
+        "add": {
+          "component_groups": [
+            "gun:mp5"
+          ]
+        }
+      },
+      "gun:mp5_empty": {
+        "add": {
+          "component_groups": [
+            "gun:mp5_empty"
+          ]
+        }
+      },
+      "gun:mpt55": {
+        "add": {
+          "component_groups": [
+            "gun:mpt55"
+          ]
+        }
+      },
+      "gun:mpt55_empty": {
+        "add": {
+          "component_groups": [
+            "gun:mpt55_empty"
+          ]
+        }
+      },
+      "gun:p90": {
+        "add": {
+          "component_groups": [
+            "gun:p90"
+          ]
+        }
+      },
+      "gun:p90_empty": {
+        "add": {
+          "component_groups": [
+            "gun:p90_empty"
+          ]
+        }
+      },
+      "gun:p250": {
+        "add": {
+          "component_groups": [
+            "gun:p250"
+          ]
+        }
+      },
+      "gun:p250_empty": {
+        "add": {
+          "component_groups": [
+            "gun:p250_empty"
+          ]
+        }
+      },
+      "gun:r870": {
+        "add": {
+          "component_groups": [
+            "gun:r870"
+          ]
+        }
+      },
+      "gun:r870_empty": {
+        "add": {
+          "component_groups": [
+            "gun:r870_empty"
+          ]
+        }
+      },
+      "gun:rpk": {
+        "add": {
+          "component_groups": [
+            "gun:rpk"
+          ]
+        }
+      },
+      "gun:rpk_empty": {
+        "add": {
+          "component_groups": [
+            "gun:rpk_empty"
+          ]
+        }
+      },
+      "gun:scar": {
+        "add": {
+          "component_groups": [
+            "gun:scar"
+          ]
+        }
+      },
+      "gun:scar_empty": {
+        "add": {
+          "component_groups": [
+            "gun:scar_empty"
+          ]
+        }
+      },
+      "gun:sporter22": {
+        "add": {
+          "component_groups": [
+            "gun:sporter22"
+          ]
+        }
+      },
+      "gun:sporter22_empty": {
+        "add": {
+          "component_groups": [
+            "gun:sporter22_empty"
+          ]
+        }
+      },
+      "gun:vector": {
+        "add": {
+          "component_groups": [
+            "gun:vector"
+          ]
+        }
+      },
+      "gun:vector_empty": {
+        "add": {
+          "component_groups": [
+            "gun:vector_empty"
+          ]
+        }
+      },
+      "cd:despawn_item": {
+        "add": {
+          "component_groups": [
+            "cd:despawn_item"
+          ]
+        }
+      }
+    }
+  }
+}
