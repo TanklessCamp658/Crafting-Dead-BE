@@ -1,0 +1,214 @@
+{
+  "grenade.throw": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/grenades/throw"
+    ]
+  },
+  "gun.empty": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/empty_gun"
+    ]
+  },
+  "grenade.gasplode": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/grenades/gasplode"
+    ]
+  },
+  "grenade.flashbang": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/grenades/flashbang"
+    ]
+  },
+  "gun.acr": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/acr"
+    ]
+  },
+  "gun.ak47": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/ak47"
+    ]
+  },
+  "gun.as50": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/as50"
+    ]
+  },
+  "gun.awp": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/awp"
+    ]
+  },
+  "gun.deagle": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/deagle"
+    ]
+  },
+  "gun.dmr": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/dmr"
+    ]
+  },
+  "gun.fn57": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/fn57"
+    ]
+  },
+  "gun.fnfal": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/fnfal"
+    ]
+  },
+  "gun.g36c": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/g36c"
+    ]
+  },
+  "gun.glock18": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/glock18"
+    ]
+  },
+  "gun.hk417": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/hk417"
+    ]
+  },
+  "gun.m1garand": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/m1garand"
+    ]
+  },
+  "gun.m4a1": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/m4a1"
+    ]
+  },
+  "gun.m9": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/m9"
+    ]
+  },
+
+  "gun.m107": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/m107"
+    ]
+  },
+  "gun.m240b": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/m240b"
+    ]
+  },
+  "gun.m1911": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/m1911"
+    ]
+  },
+  "gun.mac10": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/mac10"
+    ]
+  },
+  "gun.magnum": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/magnum"
+    ]
+  },
+  "gun.minigun": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/minigun"
+    ]
+  },
+  "gun.mk48mod": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/mk48mod"
+    ]
+  },
+
+  "gun.mossberg500": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/mossberg500"
+    ]
+  },
+  "gun.mp5": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/mp5"
+    ]
+  },
+  "gun.mpt55": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/mpt55"
+    ]
+  },
+  "gun.p90": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/p90"
+    ]
+  },
+  "gun.p250": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/p250"
+    ]
+  },
+  "gun.r870": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/r870"
+    ]
+  },
+  "gun.rpk": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/rpk"
+    ]
+  },
+  "gun.scar": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/scar"
+    ]
+  },
+  "gun.sporter22": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/sporter22"
+    ]
+  },
+  "gun.vector": {
+    "category": "hostile",
+    "sounds": [
+      "sounds/guns/vector"
+    ]
+  }
+}
