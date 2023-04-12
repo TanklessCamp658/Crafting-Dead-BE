@@ -1,0 +1,25 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "minecraft:campsite_1_generate",
+      "places_feature": "minecraft:campsite_1"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "wasteland"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 0.5,
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

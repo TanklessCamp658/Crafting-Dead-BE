@@ -1,0 +1,61 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "minecraft:tower1_generate",
+			"places_feature": "minecraft:tower1"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass",
+			"minecraft:biome_filter": [
+				{
+					"all_of": [
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "lakes"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "ocean"
+						},
+						{
+							"test": "has_biome_tag",
+							"operator": "!=",
+							"value": "river"
+						},
+						{
+							"any_of": [
+								{
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "overworld"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+    "distribution": {
+      "iterations": 1,
+      "scatter_chance": 0.5,
+      "x": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "gaussian"
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz) + -1",
+      "z": {
+        "extent": [
+          0,
+          16
+        ],
+        "distribution": "gaussian"
+      }
+    }
+  }
+}
