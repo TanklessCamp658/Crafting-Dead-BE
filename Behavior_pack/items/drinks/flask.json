@@ -1,0 +1,81 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:flask",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Empty Flask"
+    },
+    "minecraft:creative_category": {
+      "parent": "itemGroup.name.equipment"
+    },
+      "minecraft:max_stack_size": 1,
+        "minecraft:on_use":{
+          "on_use":{
+            "event": "cd:flask"
+          }
+        },
+      "minecraft:hand_equipped": true,
+      "minecraft:use_animation": "drink",
+      "minecraft:use_duration": 100000,
+      "minecraft:icon": {
+        "texture": "flask"
+      },
+      "minecraft:render_offsets": {
+        "main_hand": {
+          "third_person": {
+            "scale": [
+              0.05,
+              0.05,
+              0.05
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.018999999999988602,
+              0.018999999999988602,
+              0.018999999999988602
+            ]
+          }
+        },
+        "off_hand": {
+          "third_person": {
+            "scale": [
+              0.05,
+              0.05,
+              0.05
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.018999999999988602,
+              0.018999999999988602,
+              0.018999999999988602
+            ]
+          }
+        }
+      }
+    },
+      "events":{
+        "cd:flask":{
+          "sequence":[
+            {
+              "condition": "query.is_in_water_or_rain",
+              "run_command":{
+                "command":[
+                  "function flask"
+                ],
+                "target": "holder"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+
+
+

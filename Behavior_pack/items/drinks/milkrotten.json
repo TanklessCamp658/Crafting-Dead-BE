@@ -1,0 +1,100 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:milkrotten",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:max_stack_size": 64,
+      "minecraft:icon": {
+        "texture": "milkrotten"
+      },
+      "minecraft:use_duration": 1.6,
+      "minecraft:use_animation": "drink",
+      "minecraft:render_offsets": "apple",
+      "minecraft:food": {
+        "nutrition": 0,
+        "effects": [
+          {
+            "name": "hunger",
+            "chance": 0.8,
+            "duration": 30,
+            "amplifier": 0
+          },
+          {
+            "name": "nausea",
+            "chance": 0.5,
+            "duration": 15,
+            "amplifier": 0
+          },
+          {
+            "name": "poison",
+            "chance": 0.2,
+            "duration": 10,
+            "amplifier": 0
+          }
+        ],
+        "saturation_modifier": "low",
+        "can_always_eat": true,
+        "using_converts_to": "cd:milkrottenempty",
+        "on_consume": {
+          "event": "cd:milkrotten"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Spoiled Milk Carton"
+      },
+      "minecraft:creative_category": {
+        "parent": "equipment"
+      },
+      "minecraft:render_offsets": {
+        "main_hand": {
+          "third_person": {
+            "scale": [
+              0.05,
+              0.05,
+              0.05
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.018999999999988602,
+              0.018999999999988602,
+              0.018999999999988602
+            ]
+          }
+        },
+        "off_hand": {
+          "third_person": {
+            "scale": [
+              0.05,
+              0.05,
+              0.05
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.018999999999988602,
+              0.018999999999988602,
+              0.018999999999988602
+            ]
+          }
+        }
+      }
+    },
+    "events": {
+      "cd:milkrotten": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": [
+                "function milkrotten"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}
