@@ -1,0 +1,28 @@
+{
+	"format_version": "1.11.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cd:bloodbag"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:max_stack_size": 64,
+			"minecraft:use_duration": 32,			
+			"minecraft:foil": false,
+			"minecraft:food": {
+				"can_always_eat": true,
+				"saturation_modifier": "low",
+                     "using_converts_to": "cd:bloodbagempty",
+				"nutrition": 0,
+				"effects": [
+					{
+						"name": "regeneration",
+						"chance": 1,
+						"duration": 5,
+						"amplifier": 2
+					}
+				]
+			}
+		}
+	}
+}
