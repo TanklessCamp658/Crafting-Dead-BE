@@ -1,0 +1,128 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gun:fnfal",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 30
+      },
+      "minecraft:display_name": {
+        "value": "FN-FAL"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.equipment"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:cooldown": {
+        "category": "ender_pearl",
+        "duration": 0.1
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "fnfal:shoot",
+          "target": "self"
+        }
+      },
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "damage",
+          "target": "self"
+        },
+        "on_not_hurt_entity": {
+          "event": "damage",
+          "target": "self"
+        },
+        "on_hit_block": {
+          "event": "damage",
+          "target": "self"
+        }
+      },
+      "minecraft:render_offsets": {
+        "main_hand": {
+          "third_person": {
+            "scale": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "off_hand": {
+          "third_person": {
+            "scale": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:use_animation": "bow",
+      "minecraft:use_duration": 0.4,
+      "minecraft:icon": {
+        "texture": "fnfal"
+      }
+    },
+    "events": {
+      "fnfal:shoot": {
+        "sequence": [
+          {
+            "condition": "query.remaining_durability >= 1",
+            "shoot": {
+              "launch_power": 10,
+              "projectile": "bullet:fnfal",
+              "target": "self"
+            },
+            "damage": {
+              "amount": 1,
+              "target": "self",
+              "type": "contact"
+            },
+            "run_command": {
+              "command": [
+                "execute @p ~ ~ ~ playsound gun.fnfal"
+              ],
+              "target": "holder"
+            }
+          },
+          {
+            "sequence": [
+              {
+                "condition": "query.remaining_durability == 0",
+                "sequence": [
+                  {
+                    "run_command": {
+                      "command": [
+                        "playsound gun.empty @s ~ ~ ~",
+                        "replaceitem entity @s slot.weapon.mainhand 0 gun:fnfal_empty 1 0"
+                      ],
+                      "target": "holder"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

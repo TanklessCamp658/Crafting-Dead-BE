@@ -1,0 +1,86 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "gun:r870_empty",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Empty Remington 870"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.equipment"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "r870:reload",
+          "target": "self"
+        }
+      },
+      "minecraft:render_offsets": {
+        "main_hand": {
+          "third_person": {
+            "scale": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "off_hand": {
+          "third_person": {
+            "scale": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "first_person": {
+            "scale": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:use_animation": "bow",
+      "minecraft:icon": {
+        "texture": "r870"
+      }
+    },
+    "events": {
+      "r870:reload": {
+        "sequence": [
+          {
+            "sequence": [
+              {
+                "condition": "query.get_equipped_item_name(1) != 'shotgunrounds'",
+                "sequence": [
+                  {
+                    "run_command": {
+                      "command": [
+                        "playsound gun.empty @s ~ ~ ~"
+                      ],
+                      "target": "holder"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
