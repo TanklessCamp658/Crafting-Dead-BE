@@ -1,0 +1,47 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Created by tanklesscamp658. All right reserved.",
+		"name": "Crafting Dead BE - v1.0.0",
+		"uuid": "dbc75029-612a-4986-b935-54befd197783",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			14,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "Created by Dongbadao. All right reserved.",
+			"type": "data",
+			"uuid": "de9eec22-59ab-463c-b17a-602d7485b6a0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "93e76fa8-adb9-4bf6-a867-ccdbeea8f5a5",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.3"
+			]
+		}
+	}
+}
