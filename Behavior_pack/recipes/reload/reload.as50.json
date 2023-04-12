@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:as50"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:as50_empty"
+      },
+      {
+        "item": "ammo:as50clip"
+      }
+    ],
+    "result": {
+      "item": "gun:as50"
+    }
+  }
+}

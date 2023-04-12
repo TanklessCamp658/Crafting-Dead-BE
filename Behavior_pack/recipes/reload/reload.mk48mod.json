@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:mk48mod"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:mk48mod_empty"
+      },
+      {
+        "item": "ammo:mk48modclip"
+      }
+    ],
+    "result": {
+      "item": "gun:mk48mod"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:vector"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:vector_empty"
+      },
+      {
+        "item": "ammo:vectorclip"
+      }
+    ],
+    "result": {
+      "item": "gun:vector"
+    }
+  }
+}

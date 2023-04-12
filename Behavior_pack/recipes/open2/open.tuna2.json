@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "open:tuna2"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "cd:tuna"
+      },
+      {
+        "item": "cd:screwdriver"
+      }
+    ],
+    "result": {
+      "item": "cd:tunaopen"
+    }
+  }
+}

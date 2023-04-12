@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:m9"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:m9_empty"
+      },
+      {
+        "item": "ammo:m9clip"
+      }
+    ],
+    "result": {
+      "item": "gun:m9"
+    }
+  }
+}

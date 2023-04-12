@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "open:canneddogfood"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "cd:canneddogfood"
+      },
+      {
+        "item": "cd:canopener"
+      }
+    ],
+    "result": {
+      "item": "cd:canneddogfoodopen"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:m107"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:m107_empty"
+      },
+      {
+        "item": "ammo:m107clip"
+      }
+    ],
+    "result": {
+      "item": "gun:m107"
+    }
+  }
+}

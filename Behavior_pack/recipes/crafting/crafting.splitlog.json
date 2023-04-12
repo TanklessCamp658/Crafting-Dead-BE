@@ -1,0 +1,27 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "crafting:splitlog"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"L  ",
+			" L ",
+			"  L"
+		],
+		"key": {
+			"L": {
+				"item": "minecraft:log"
+			}
+		},
+		"result": [
+			{
+				"item": "cd:splitlog",
+      "count": 3
+			}
+		]
+	}
+}

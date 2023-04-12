@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:scar"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:scar_empty"
+      },
+      {
+        "item": "ammo:stanag30rnd"
+      }
+    ],
+    "result": {
+      "item": "gun:scar"
+    }
+  }
+}

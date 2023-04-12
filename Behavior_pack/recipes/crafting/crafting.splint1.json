@@ -1,0 +1,29 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "crafting:splint1"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#B ",
+			"B#B",
+			" B#"
+		],
+		"key": {
+			"B": {
+				"item": "cd:splitlog"
+			},
+			"#": {
+				"item": "cd:rope"
+			}
+		},
+		"result": [
+			{
+				"item": "cd:splint"
+			}
+		]
+	}
+}

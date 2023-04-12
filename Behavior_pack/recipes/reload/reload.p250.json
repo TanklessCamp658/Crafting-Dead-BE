@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:p250"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:p250_empty"
+      },
+      {
+        "item": "ammo:p250clip"
+      }
+    ],
+    "result": {
+      "item": "gun:p250"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:mossberg500"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:mossberg500_empty"
+      },
+      {
+        "item": "ammo:shotgunrounds"
+      }
+    ],
+    "result": {
+      "item": "gun:mossberg500"
+    }
+  }
+}

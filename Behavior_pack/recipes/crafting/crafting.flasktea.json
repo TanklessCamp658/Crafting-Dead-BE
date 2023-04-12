@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "crafting:flasktea"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "cd:flaskwater"
+      },
+      {
+        "item": "cd:bagoftea"
+      }
+    ],
+    "result": {
+      "item": "cd:flasktea"
+    }
+  }
+}

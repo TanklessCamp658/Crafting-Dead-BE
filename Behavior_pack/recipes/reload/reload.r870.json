@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:r870"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:r870_empty"
+      },
+      {
+        "item": "ammo:shotgunrounds"
+      }
+    ],
+    "result": {
+      "item": "gun:r870"
+    }
+  }
+}

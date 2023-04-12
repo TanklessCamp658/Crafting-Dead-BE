@@ -1,0 +1,1786 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "cd:blackballistic_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:ghillie_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:combatbdu_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:greenarmy_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:greenballistic_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:greyarmy_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bluehardhat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:yellowhardhat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:greenhardhat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:orangehardhat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:redhardhat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:juggernaut_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:riot_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:space_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:spetsnaz_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:swat_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:tanarmy_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:winter_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:gasmask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:hazmat_cap",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:hazmat_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:millitaryhazmat_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:nvgoggles",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:americamask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:creepermask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:pumpkinmask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sheepmask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:zombiemask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cowmask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:paydaywolfmask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:tophat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bunnyears",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:firemanhat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cheifhat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:knighthelm",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:radar_cap",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:scuba_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:ski_mask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:camo_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clone_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:pilot_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:beanie",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:blackglasses",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:camo_bandana",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cookie_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:deadpool_helmet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:doctor_mask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:hacker_mask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:navy_bandana",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:ninja_mask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:red_bandana",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:santa_hat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:trapper_hat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:ushanka",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "grenade:frag",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "grenade:flashbang",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "grenade:pipebomb",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "grenade:firegrenade",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "grenade:gas",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "grenade:decoy",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "grenade:smoke",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:acrclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:akm30rnd",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:as50clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:awpclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:deagleclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:dmrclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:fn57clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:fnfalclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:glock18clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:g36cclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:hk417clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:m9clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:m1garandclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:m107clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:m240bclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:m1911clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:mac10clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:magnumclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:minigunclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:mk48modclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:mp5clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:p90clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:p250clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:rpkclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:shotgunrounds",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:stanag30rnd",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:sporter22clip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "ammo:vectorclip",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:colapop",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:colapopempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:deadbull",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:deadbullempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:flask",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:flaskwater",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:flaskcoffee",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:flasktea",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:grapedrink",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:grapedrinkempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:icetea",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:iceteaempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:ironbrew",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:ironbrewempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:juice",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:juiceempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:lemonfizz",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:lemonfizzempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:milk",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:milkempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:milkrotten",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sodacola",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sodacolaempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sodadew",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sodadewempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sodaorange",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sodaorangeempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sodapepe",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sodapepeempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sprite",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:spriteempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:waterbottle",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:waterbottleempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:watercanteen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:watercanteenempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:zombieenergy",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:zombieenergyempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bagoftea",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:canopener",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:coffeebeans",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:ragdirty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:ragclean",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:rope",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:screwdriver",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:splitlog",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:adrenaline",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:antibiotics",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bandage",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bottlecure",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cure",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:medpack",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:morphine",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:splint",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:syringe",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:batnail",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:boltcutters",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bayonet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bowie",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:broadsword",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:brokenbottle",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:chainsaw",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cleaver",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:combatknife",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:crowbar",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:firemanaxe",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:fryingpan",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:golfclub",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:hatchet",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:machete",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:minerpickaxe",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:nightstick",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:ninjasword",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:oldshovel",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:pipe",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:rustypipe",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:scythe",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:scytheweapon",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:sledgehammer",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:steelbat",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:wrench",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:apple:",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:applerotten",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:beans",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:beansopen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bloodbag",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bloodbagempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:blueberry",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:blueberryrotten",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:candybar",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:candycane",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cannedcorn",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cannedcornopen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:canneddogfood",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:canneddogfoodopen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cannedpickles",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cannedpicklesopen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cereal",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cerealemerald",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cerealflakes",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:cerealnutty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:chips",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:chipscheese",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:chipsranch",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:chipssalt",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:custard",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:custardopen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:mre",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:noodles",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:orange",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:orangerotten",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:pasta",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:pastaopen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:peach",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:peachopen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:pear",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:pearrotten",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:popcorn",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:powerbar",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:raspberry",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:raspberryrotten",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:rice",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:tacticalbacon",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:tacticalbaconopen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:tuna",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:tunaopen",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:watermelon",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:watermelonrotten",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:zombieenergy",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:zombieenergyempty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:acr",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:ak47",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:as50",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:awp",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:deagle",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:dmr",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:fn57",
+          "weight": 10
+        },
+
+        {
+          "type": "item",
+          "name": "gun:fnfal",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:g36c",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:glock18",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:hk417",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m9",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m1garand",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m4a1",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m107",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m240b",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m1911",
+          "weight": 10
+        },
+
+        {
+          "type": "item",
+          "name": "gun:mac10",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:magnum",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:minigun",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:mk48mod",
+          "weight": 10
+        },
+
+        {
+          "type": "item",
+          "name": "gun:mossberg500",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:mp5",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:mpt55",
+          "weight": 10
+        },
+
+        {
+          "type": "item",
+          "name": "gun:p90",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:p250",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:r870",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:rpk",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:scar",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:sporter22",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:vector",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:acr_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:ak47_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:as50_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:awp_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:deagle_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:dmr_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:fn57_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:fnfal_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:g36c_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:glock18_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:hk417_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m9_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m1garand_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m4a1_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m107_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m240b_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:m1911_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:mac10_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:magnum_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:minigun_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:mk48mod_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:mossberg500_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:mp5_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:mpt55_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:p90_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:p250_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:r870_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:rpk_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:scar_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:sporter22_empty",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "gun:vector_empty",
+          "weight": 10
+        },
+
+        {
+          "type": "item",
+          "name": "backpack:greygun_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:tangun_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:largeammo_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:largeghillie_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:largeblack_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:largegreen_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:largegrey_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:largetan_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumblack_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumblue_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumghillie_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumgreen_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumgrey_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumorange_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumpurple_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumred_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumwhite_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:mediumyellow_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:smallblue_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:smallgreen_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:smallorange_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:smallpurple_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:smallred_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "backpack:smallyellow_spawn_egg",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:alphacrate",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:bravocrate",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:charliecrate",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing1",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing2",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing3",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing4",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing5",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing6",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing7",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing8",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing9",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing10",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing11",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing12",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing13",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing14",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing15",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing16",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing17",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing18",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing19",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing20",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing21",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing22",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing23",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing24",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing25",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing26",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing27",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing28",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing29",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing30",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing31",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing32",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing33",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing34",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing35",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing36",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing37",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing38",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing39",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing40",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing41",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing42",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "cd:clothing43",
+          "weight": 10
+        },
+
+        {
+          "type": "item",
+          "name": "minecraft:cooked_beef",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cooked_porkchop",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}
+

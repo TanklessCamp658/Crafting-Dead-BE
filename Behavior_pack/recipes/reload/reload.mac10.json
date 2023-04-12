@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:mac10"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:mac10_empty"
+      },
+      {
+        "item": "ammo:mac10clip"
+      }
+    ],
+    "result": {
+      "item": "gun:mac10"
+    }
+  }
+}

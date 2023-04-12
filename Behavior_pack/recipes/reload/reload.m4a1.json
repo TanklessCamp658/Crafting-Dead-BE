@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:m4a1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:m4a1_empty"
+      },
+      {
+        "item": "ammo:stanag30rnd"
+      }
+    ],
+    "result": {
+      "item": "gun:m4a1"
+    }
+  }
+}

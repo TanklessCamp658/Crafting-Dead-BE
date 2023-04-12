@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:awp"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:awp_empty"
+      },
+      {
+        "item": "ammo:awpclip"
+      }
+    ],
+    "result": {
+      "item": "gun:awp"
+    }
+  }
+}

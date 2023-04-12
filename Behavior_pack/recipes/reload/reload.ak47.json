@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "reload:ak47"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "gun:ak47_empty"
+      },
+      {
+        "item": "ammo:akm30rnd"
+      }
+    ],
+    "result": {
+      "item": "gun:ak47"
+    }
+  }
+}

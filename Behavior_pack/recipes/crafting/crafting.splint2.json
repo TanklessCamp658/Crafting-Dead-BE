@@ -1,0 +1,29 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "crafting:splint2"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"rB ",
+			"BrB",
+			" Br"
+		],
+		"key": {
+			"B": {
+				"item": "cd:splitlog"
+			},
+			"r": {
+				"item": "cd:ragclean"
+			}
+		},
+		"result": [
+			{
+				"item": "cd:splint"
+			}
+		]
+	}
+}
