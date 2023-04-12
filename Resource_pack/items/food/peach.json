@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:peach",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "peach",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

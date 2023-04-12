@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:orangerotten",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "orangerotten",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

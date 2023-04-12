@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:pastaopen",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "pastaopen",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

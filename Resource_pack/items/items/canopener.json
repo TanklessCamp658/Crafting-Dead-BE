@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:canopener",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "canopener",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

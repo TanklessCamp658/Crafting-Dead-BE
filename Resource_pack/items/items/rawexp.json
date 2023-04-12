@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:rawexp",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "rawexp",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

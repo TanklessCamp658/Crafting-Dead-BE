@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:coffeebeans",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "coffeebeans",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

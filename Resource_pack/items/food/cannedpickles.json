@@ -1,0 +1,15 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "cd:cannedpickles",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "cannedpickles",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}
