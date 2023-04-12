@@ -1,0 +1,38 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "loot": {
+      "textures": "textures/blocks/loot"
+    },
+    "loot1": {
+      "textures": "textures/blocks/loot1"
+    },
+    "loot2": {
+      "textures": "textures/blocks/loot2"
+    },
+    "loot3": {
+      "textures": "textures/blocks/loot3"
+    },
+    "loot4": {
+      "textures": "textures/blocks/loot4"
+    },
+    "loot5": {
+      "textures": "textures/blocks/loot5"
+    },
+    "loot6": {
+      "textures": "textures/blocks/loot6"
+    },
+    "alphacrate": {
+      "textures": "textures/blocks/alphacrate"
+    },
+    "bravocrate": {
+      "textures": "textures/blocks/bravocrate"
+    },
+    "charliecrate": {
+      "textures": "textures/blocks/charliecrate"
+    }
+  }
+}

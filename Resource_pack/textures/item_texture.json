@@ -1,0 +1,1304 @@
+{
+  "resource_pack_name": "FortniteItems",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "cd:ammovest": {
+      "textures": "textures/vests/ammovest"
+    },
+    "cd:greenvest": {
+      "textures": "textures/vests/greenvest"
+    },
+    "cd:greyvest": {
+      "textures": "textures/vests/greyvest"
+    },
+    "cd:ghillievest": {
+      "textures": "textures/vests/ghillievest"
+    },
+    "cd:tanvest": {
+      "textures": "textures/vests/tanvest"
+    },
+    "cd:riotvest": {
+      "textures": "textures/vests/riotvest"
+    },
+    "cd:blackvest": {
+      "textures": "textures/vests/blackvest"
+    },
+
+    "akm30rnd": {
+      "textures": "textures/ammo/akm30rnd"
+    },
+    "as50clip": {
+      "textures": "textures/ammo/as50clip"
+    },
+    "shotgunrounds": {
+      "textures": "textures/ammo/shotgunrounds"
+    },
+    "acrclip": {
+      "textures": "textures/ammo/acrclip"
+    },
+    "awpclip": {
+      "textures": "textures/ammo/awpclip"
+    },
+    "deagleclip": {
+      "textures": "textures/ammo/deagleclip"
+    },
+    "dmrclip": {
+      "textures": "textures/ammo/dmrclip"
+    },
+    "fn57clip": {
+      "textures": "textures/ammo/fn57clip"
+    },
+    "fnfalclip": {
+      "textures": "textures/ammo/fnfalclip"
+    },
+    "hk417clip": {
+      "textures": "textures/ammo/hk417clip"
+    },
+    "glock18clip": {
+      "textures": "textures/ammo/glock18clip"
+    },
+    "g36cclip": {
+      "textures": "textures/ammo/g36cclip"
+    },
+    "magnumclip": {
+      "textures": "textures/ammo/magnumclip"
+    },
+    "m9clip": {
+      "textures": "textures/ammo/m9clip"
+    },
+    "m1911clip": {
+      "textures": "textures/ammo/m1911clip"
+    },
+    "minigunclip": {
+      "textures": "textures/ammo/minigunclip"
+    },
+    "mk48modclip": {
+      "textures": "textures/ammo/mk48modclip"
+    },
+
+    "mp5clip": {
+      "textures": "textures/ammo/mp5clip"
+    },
+    "p90clip": {
+      "textures": "textures/ammo/p90clip"
+    },
+    "p250clip": {
+      "textures": "textures/ammo/p250clip"
+    },
+    "m1garandclip": {
+      "textures": "textures/ammo/m1garandclip"
+    },
+    "rpkclip": {
+      "textures": "textures/ammo/rpkclip"
+    },
+    "mac10clip": {
+      "textures": "textures/ammo/mac10clip"
+    },
+    "sporter22clip": {
+      "textures": "textures/ammo/sporter22clip"
+    },
+    "stanag30rnd": {
+      "textures": "textures/ammo/stanag30rnd"
+    },
+    "m240bclip": {
+      "textures": "textures/ammo/m240bclip"
+    },
+    "m107clip": {
+      "textures": "textures/ammo/m107clip"
+    },
+    "vectorclip": {
+      "textures": "textures/ammo/vectorclip"
+    },
+    "cd:clothing1": {
+      "textures": "textures/clothings/clothing1"
+    },
+    "cd:clothing2": {
+      "textures": "textures/clothings/clothing2"
+    },
+    "cd:clothing3": {
+      "textures": "textures/clothings/clothing3"
+    },
+    "cd:clothing4": {
+      "textures": "textures/clothings/clothing4"
+    },
+    "cd:clothing5": {
+      "textures": "textures/clothings/clothing5"
+    },
+    "cd:clothing6": {
+      "textures": "textures/clothings/clothing6"
+    },
+    "cd:clothing7": {
+      "textures": "textures/clothings/clothing7"
+    },
+    "cd:clothing8": {
+      "textures": "textures/clothings/clothing8"
+    },
+    "cd:clothing9": {
+      "textures": "textures/clothings/clothing9"
+    },
+    "cd:clothing10": {
+      "textures": "textures/clothings/clothing10"
+    },
+    "cd:clothing11": {
+      "textures": "textures/clothings/clothing11"
+    },
+    "cd:clothing12": {
+      "textures": "textures/clothings/clothing12"
+    },
+    "cd:clothing13": {
+      "textures": "textures/clothings/clothing13"
+    },
+    "cd:clothing14": {
+      "textures": "textures/clothings/clothing14"
+    },
+    "cd:clothing15": {
+      "textures": "textures/clothings/clothing15"
+    },
+    "cd:clothing16": {
+      "textures": "textures/clothings/clothing16"
+    },
+    "cd:clothing17": {
+      "textures": "textures/clothings/clothing17"
+    },
+    "cd:clothing18": {
+      "textures": "textures/clothings/clothing18"
+    },
+    "cd:clothing19": {
+      "textures": "textures/clothings/clothing19"
+    },
+    "cd:clothing20": {
+      "textures": "textures/clothings/clothing20"
+    },
+    "cd:clothing21": {
+      "textures": "textures/clothings/clothing21"
+    },
+    "cd:clothing22": {
+      "textures": "textures/clothings/clothing22"
+    },
+    "cd:clothing23": {
+      "textures": "textures/clothings/clothing23"
+    },
+    "cd:clothing24": {
+      "textures": "textures/clothings/clothing24"
+    },
+    "cd:clothing25": {
+      "textures": "textures/clothings/clothing25"
+    },
+    "cd:clothing26": {
+      "textures": "textures/clothings/clothing26"
+    },
+    "cd:clothing27": {
+      "textures": "textures/clothings/clothing27"
+    },
+    "cd:clothing28": {
+      "textures": "textures/clothings/clothing28"
+    },
+    "cd:clothing29": {
+      "textures": "textures/clothings/clothing29"
+    },
+    "cd:clothing30": {
+      "textures": "textures/clothings/clothing30"
+    },
+    "cd:clothing31": {
+      "textures": "textures/clothings/clothing31"
+    },
+    "cd:clothing32": {
+      "textures": "textures/clothings/clothing32"
+    },
+    "cd:clothing33": {
+      "textures": "textures/clothings/clothing33"
+    },
+    "cd:clothing34": {
+      "textures": "textures/clothings/clothing34"
+    },
+    "cd:clothing35": {
+      "textures": "textures/clothings/clothing35"
+    },
+    "cd:clothing36": {
+      "textures": "textures/clothings/clothing36"
+    },
+    "cd:clothing37": {
+      "textures": "textures/clothings/clothing37"
+    },
+    "cd:clothing38": {
+      "textures": "textures/clothings/clothing38"
+    },
+    "cd:clothing39": {
+      "textures": "textures/clothings/clothing39"
+    },
+    "cd:clothing40": {
+      "textures": "textures/clothings/clothing40"
+    },
+    "cd:clothing41": {
+      "textures": "textures/clothings/clothing41"
+    },
+    "cd:clothing42": {
+      "textures": "textures/clothings/clothing42"
+    },
+    "cd:clothing43": {
+      "textures": "textures/clothings/clothing43"
+    },
+    "cd:clothing44": {
+      "textures": "textures/clothings/clothing44"
+    },
+
+    "bunnyears": {
+      "textures": "textures/items/bunnyears"
+    },
+    "cheifhat": {
+      "textures": "textures/items/cheifhat"
+    },
+    "firemanhat": {
+      "textures": "textures/items/firemanhat"
+    },
+    "gasmask": {
+      "textures": "textures/items/gasmask"
+    },
+    "knighthelm": {
+      "textures": "textures/items/knighthelm"
+    },
+    "tophat": {
+      "textures": "textures/items/tophat"
+    },
+    "nvgoggles": {
+      "textures": "textures/items/nvgoggles"
+    },
+    "bluehardhat": {
+      "textures": "textures/items/bluehardhat"
+    },
+    "greenhardhat": {
+      "textures": "textures/items/greenhardhat"
+    },
+    "orangehardhat": {
+      "textures": "textures/items/orangehardhat"
+    },
+    "redhardhat": {
+      "textures": "textures/items/redhardhat"
+    },
+    "yellowhardhat": {
+      "textures": "textures/items/yellowhardhat"
+    },
+    "cowmask": {
+      "textures": "textures/items/cowmask"
+    },
+    "americamask": {
+      "textures": "textures/items/americamask"
+    },
+    "creepermask": {
+      "textures": "textures/items/creepermask"
+    },
+    "sheepmask": {
+      "textures": "textures/items/sheepmask"
+    },
+    "zombiemask": {
+      "textures": "textures/items/zombiemask"
+    },
+    "pumpkinmask": {
+      "textures": "textures/items/pumpkinmask"
+    },
+    "paydaywolfmask": {
+      "textures": "textures/items/paydaywolfmask"
+    },
+    "cd_blackballistic_helmet": {
+      "textures": [
+        "textures/items/blackballistic_helmet"
+      ]
+    },
+    "cd_greenballistic_helmet": {
+      "textures": [
+        "textures/items/greenballistic_helmet"
+      ]
+    },
+    "cd_riot_helmet": {
+      "textures": [
+        "textures/items/riot_helmet"
+      ]
+    },
+    "cd_ghille_cap": {
+      "textures": [
+        "textures/items/ghille_cap"
+      ]
+    },
+    "cd_hazmat_cap": {
+      "textures": [
+        "textures/items/hazmat_cap"
+      ]
+    },
+    "cd_tacghille_cap": {
+      "textures": [
+        "textures/items/tacghille_cap"
+      ]
+    },
+    "cd_juggernaut_cap": {
+      "textures": [
+        "textures/items/juggernaut_cap"
+      ]
+    },
+    "cd_blackglasses": {
+      "textures": [
+        "textures/items/blackglasses"
+      ]
+    },
+    "cd_camo_bandana": {
+      "textures": [
+        "textures/items/camo_bandana"
+      ]
+    },
+    "cd_red_bandana": {
+      "textures": [
+        "textures/items/red_bandana"
+      ]
+    },
+    "cd_navy_bandana": {
+      "textures": [
+        "textures/items/navy_bandana"
+      ]
+    },
+    "cd_hacker_mask": {
+      "textures": [
+        "textures/items/hacker_mask"
+      ]
+    },
+    "cd_radar_cap": {
+      "textures": [
+        "textures/items/radar_cap"
+      ]
+    },
+    "cd_ushanka": {
+      "textures": [
+        "textures/items/ushanka"
+      ]
+    },
+    "cd_santa_hat": {
+      "textures": [
+        "textures/items/santa_hat"
+      ]
+    },
+    "cd_trapper_hat": {
+      "textures": [
+        "textures/items/trapper_hat"
+      ]
+    },
+    "cd_greenarmy_helmet": {
+      "textures": [
+        "textures/items/greenarmy_helmet"
+      ]
+    },
+    "cd_greyarmy_helmet": {
+      "textures": [
+        "textures/items/greyarmy_helmet"
+      ]
+    },
+    "cd_tanarmy_helmet": {
+      "textures": [
+        "textures/items/tanarmy_helmet"
+      ]
+    },
+    "cd_winter_helmet": {
+      "textures": [
+        "textures/items/winter_helmet"
+      ]
+    },
+    "cd_beanie": {
+      "textures": [
+        "textures/items/beanie"
+      ]
+    },
+    "cd_bluedusk_helmet": {
+      "textures": [
+        "textures/items/bluedusk_helmet"
+      ]
+    },
+    "cd_camo_helmet": {
+      "textures": [
+        "textures/items/camo_helmet"
+      ]
+    },
+    "cd_clone_helmet": {
+      "textures": [
+        "textures/items/clone_helmet"
+      ]
+    },
+    "cd_combatbdu_helmet": {
+      "textures": [
+        "textures/items/combatbdu_helmet"
+      ]
+    },
+    "cd_cookie_helmet": {
+      "textures": [
+        "textures/items/cookie_helmet"
+      ]
+    },
+    "cd_deadpool_helmet": {
+      "textures": [
+        "textures/items/deadpool_helmet"
+      ]
+    },
+    "cd_doctor_mask": {
+      "textures": [
+        "textures/items/doctor_mask"
+      ]
+    },
+    "cd_ghille_helmet": {
+      "textures": [
+        "textures/items/ghille_helmet"
+      ]
+    },
+    "cd_hazmat_helmet": {
+      "textures": [
+        "textures/items/hazmat_helmet"
+      ]
+    },
+    "cd_juggernaut_helmet": {
+      "textures": [
+        "textures/items/juggernaut_helmet"
+      ]
+    },
+    "cd_millitaryhazmat_helmet": {
+      "textures": [
+        "textures/items/millitaryhazmat_helmet"
+      ]
+    },
+    "cd_dusk_helmet": {
+      "textures": [
+        "textures/items/dusk_helmet"
+      ]
+    },
+    "cd_ninja_mask": {
+      "textures": [
+        "textures/items/ninja_mask"
+      ]
+    },
+    "cd_pilot_helmet": {
+      "textures": [
+        "textures/items/pilot_helmet"
+      ]
+    },
+    "cd_scuba_helmet": {
+      "textures": [
+        "textures/items/scuba_helmet"
+      ]
+    },
+    "cd_ski_mask": {
+      "textures": [
+        "textures/items/ski_mask"
+      ]
+    },
+    "cd_space_helmet": {
+      "textures": [
+        "textures/items/space_helmet"
+      ]
+    },
+    "cd_spetsnaz_helmet": {
+      "textures": [
+        "textures/items/spetsnaz_helmet"
+      ]
+    },
+    "cd_swat_helmet": {
+      "textures": [
+        "textures/items/swat_helmet"
+      ]
+    },
+    "cd_duskorange_helmet": {
+      "textures": [
+        "textures/items/duskorange_helmet"
+      ]
+    },
+    "cd_duskgreen_helmet": {
+      "textures": [
+        "textures/items/duskgreen_helmet"
+      ]
+    },
+    "cd_duskpurple_helmet": {
+      "textures": [
+        "textures/items/duskpurple_helmet"
+      ]
+    },
+    "cd_duskwhite_helmet": {
+      "textures": [
+        "textures/items/duskwhite_helmet"
+      ]
+    },
+    "cd_duskyellow_helmet": {
+      "textures": [
+        "textures/items/duskyellow_helmet"
+      ]
+    },
+    "pvcpipe": {
+      "textures": [
+        "textures/items/pvcpipe"
+      ]
+    },
+    "rawexp": {
+      "textures": [
+        "textures/items/rawexp"
+      ]
+    },
+    "electronicsignal": {
+      "textures": [
+        "textures/items/electronicsignal"
+      ]
+    },
+    "tangunbackpack": {
+      "textures": [
+        "textures/backpack/tangunbackpack"
+      ]
+    },
+    "greygunbackpack": {
+      "textures": [
+        "textures/backpack/greygunbackpack"
+      ]
+    },
+    "largeammobackpack": {
+      "textures": [
+        "textures/backpack/largeammobackpack"
+      ]
+    },
+    "largegreenbackpack": {
+      "textures": [
+        "textures/backpack/largegreenbackpack"
+      ]
+    },
+    "largegreybackpack": {
+      "textures": [
+        "textures/backpack/largegreybackpack"
+      ]
+    },
+    "largeblackbackpack": {
+      "textures": [
+        "textures/backpack/largeblackbackpack"
+      ]
+    },
+    "largeghilliebackpack": {
+      "textures": [
+        "textures/backpack/largeghilliebackpack"
+      ]
+    },
+    "largetanbackpack": {
+      "textures": [
+        "textures/backpack/largetanbackpack"
+      ]
+    },
+    "mediumbluebackpack": {
+      "textures": [
+        "textures/backpack/mediumbluebackpack"
+      ]
+    },
+    "mediumblackbackpack": {
+      "textures": [
+        "textures/backpack/mediumblackbackpack"
+      ]
+    },
+    "mediumghilliebackpack": {
+      "textures": [
+        "textures/backpack/mediumghilliebackpack"
+      ]
+    },
+    "mediumgreenbackpack": {
+      "textures": [
+        "textures/backpack/mediumgreenbackpack"
+      ]
+    },
+    "mediumgreybackpack": {
+      "textures": [
+        "textures/backpack/mediumgreybackpack"
+      ]
+    },
+    "mediumorangebackpack": {
+      "textures": [
+        "textures/backpack/mediumorangebackpack"
+      ]
+    },
+    "mediumpurplebackpack": {
+      "textures": [
+        "textures/backpack/mediumpurplebackpack"
+      ]
+    },
+    "mediumredbackpack": {
+      "textures": [
+        "textures/backpack/mediumredbackpack"
+      ]
+    },
+    "mediumwhitebackpack": {
+      "textures": [
+        "textures/backpack/mediumwhitebackpack"
+      ]
+    },
+    "mediumyellowbackpack": {
+      "textures": [
+        "textures/backpack/mediumyellowbackpack"
+      ]
+    },
+    "smallbluebackpack": {
+      "textures": [
+        "textures/backpack/smallbluebackpack"
+      ]
+    },
+    "smallgreenbackpack": {
+      "textures": [
+        "textures/backpack/smallgreenbackpack"
+      ]
+    },
+    "smallorangebackpack": {
+      "textures": [
+        "textures/backpack/smallorangebackpack"
+      ]
+    },
+    "smallpurplebackpack": {
+      "textures": [
+        "textures/backpack/smallpurplebackpack"
+      ]
+    },
+    "smallyellowbackpack": {
+      "textures": [
+        "textures/backpack/smallyellowbackpack"
+      ]
+    },
+    "smallredbackpack": {
+      "textures": [
+        "textures/backpack/smallredbackpack"
+      ]
+    },
+    "firemanaxe": {
+      "textures": "textures/melee/firemanaxe"
+    },
+    "bat": {
+      "textures": "textures/melee/bat"
+    },
+    "batnail": {
+      "textures": "textures/melee/batnail"
+    },
+    "bayonet": {
+      "textures": "textures/melee/bayonet"
+    },
+    "boltcutters": {
+      "textures": "textures/melee/boltcutters"
+    },
+    "bowie": {
+      "textures": "textures/melee/bowie"
+    },
+    "broadsword": {
+      "textures": "textures/melee/broadsword"
+    },
+    "brokenbottle": {
+      "textures": "textures/melee/brokenbottle"
+    },
+    "chainsaw": {
+      "textures": "textures/melee/chainsaw"
+    },
+    "cleaver": {
+      "textures": "textures/melee/cleaver"
+    },
+    "combatknife": {
+      "textures": "textures/melee/combatknife"
+    },
+    "crowbar": {
+      "textures": "textures/melee/crowbar"
+    },
+    "fryingpan": {
+      "textures": "textures/melee/fryingpan"
+    },
+    "golfclub": {
+      "textures": "textures/melee/golfclub"
+    },
+    "hammer": {
+      "textures": "textures/melee/hammer"
+    },
+    "hatchet": {
+      "textures": "textures/melee/hatchet"
+    },
+    "machete": {
+      "textures": "textures/melee/machete"
+    },
+    "nightstick": {
+      "textures": "textures/melee/nightstick"
+    },
+    "ninjasword": {
+      "textures": "textures/melee/ninjasword"
+    },
+    "minerpickaxe": {
+      "textures": "textures/melee/minerpickaxe"
+    },
+    "oldshovel": {
+      "textures": "textures/melee/oldshovel"
+    },
+    "pipe": {
+      "textures": "textures/melee/pipe"
+    },
+    "rustypipe": {
+      "textures": "textures/melee/rustypipe"
+    },
+    "scythe": {
+      "textures": "textures/melee/scythe"
+    },
+    "scytheweapon": {
+      "textures": "textures/melee/scytheweapon"
+    },
+    "sledgehammer": {
+      "textures": "textures/melee/sledgehammer"
+    },
+    "steelbat": {
+      "textures": "textures/melee/steelbat"
+    },
+    "wrench": {
+      "textures": "textures/melee/wrench"
+    },
+    "crossbow_pulling": {
+      "textures": [
+        "textures/more/crossbow_pulling_0",
+        "textures/more/crossbow_pulling_1",
+        "textures/more/crossbow_pulling_2",
+        "textures/more/crossbow_arrow",
+        "textures/more/crossbow_firework"
+      ]
+    },
+    "crossbow_standby": {
+      "textures": "textures/more/crossbow_standby"
+    },
+    "bow_pulling": {
+      "textures": [
+        "textures/items/bow_pulling_0",
+        "textures/items/bow_pulling_1",
+        "textures/items/bow_pulling_2"
+      ]
+    },
+    "bow_standby": {
+      "textures": "textures/items/bow_standby"
+    },
+    "grapedrink": {
+      "textures": "textures/items/grapedrink"
+    },
+    "grapedrinkempty": {
+      "textures": "textures/items/grapedrinkempty"
+    },
+    "flask": {
+      "textures": "textures/items/flask"
+    },
+    "flaskwater": {
+      "textures": "textures/items/flaskwater"
+    },
+    "flasktea": {
+      "textures": "textures/items/flasktea"
+    },
+    "flaskcoffee": {
+      "textures": "textures/items/flaskcoffee"
+    },
+    "coffeebeans": {
+      "textures": "textures/items/coffeebeans"
+    },
+    "bagoftea": {
+      "textures": "textures/items/bagoftea"
+    },
+    "candycane": {
+      "textures": "textures/items/candycane"
+    },
+    "cure": {
+      "textures": [
+        "textures/items/cure"
+      ]
+    },
+    "bottlecure": {
+      "textures": [
+        "textures/items/bottlecure"
+      ]
+    },
+    "syringe": {
+      "textures": [
+        "textures/items/syringe"
+      ]
+    },
+    "morphine": {
+      "textures": [
+        "textures/items/morphine"
+      ]
+    },
+    "splint": {
+      "textures": [
+        "textures/items/splint"
+      ]
+    },
+    "antibiotics": {
+      "textures": "textures/items/antibiotics"
+    },
+    "applerotten": {
+      "textures": "textures/items/applerotten"
+    },
+    "arrow": {
+      "textures": "textures/items/arrow"
+    },
+    "bandage": {
+      "textures": "textures/items/bandage"
+    },
+    "beans": {
+      "textures": "textures/items/beans"
+    },
+    "beansopen": {
+      "textures": "textures/items/beansopen"
+    },
+    "bloodbag": {
+      "textures": "textures/items/bloodbag"
+    },
+    "bloodbagempty": {
+      "textures": "textures/items/bloodbagempty"
+    },
+    "blueberry": {
+      "textures": "textures/items/blueberry"
+    },
+    "blueberryrotten": {
+      "textures": "textures/items/blueberryrotten"
+    },
+    "candybar": {
+      "textures": "textures/items/candybar"
+    },
+    "cannedcorn": {
+      "textures": "textures/items/cannedcorn"
+    },
+    "cannedcornopen": {
+      "textures": "textures/items/cannedcornopen"
+    },
+    "canneddogfood": {
+      "textures": "textures/items/canneddogfood"
+    },
+    "canneddogfoodopen": {
+      "textures": "textures/items/canneddogfoodopen"
+    },
+    "cannedpickles": {
+      "textures": "textures/items/cannedpickles"
+    },
+    "cannedpicklesopen": {
+      "textures": "textures/items/cannedpicklesopen"
+    },
+    "canopener": {
+      "textures": "textures/items/canopener"
+    },
+    "cereal": {
+      "textures": "textures/items/cereal"
+    },
+    "cerealemerald": {
+      "textures": "textures/items/cerealemerald"
+    },
+    "cerealflakes": {
+      "textures": "textures/items/cerealflakes"
+    },
+    "cerealnutty": {
+      "textures": "textures/items/cerealnutty"
+    },
+    "chips": {
+      "textures": "textures/items/chips"
+    },
+    "chipscheese": {
+      "textures": "textures/items/chipscheese"
+    },
+    "chipsranch": {
+      "textures": "textures/items/chipsranch"
+    },
+    "chipssalt": {
+      "textures": "textures/items/chipssalt"
+    },
+    "colapop": {
+      "textures": "textures/items/colapop"
+    },
+    "colapopempty": {
+      "textures": "textures/items/colapopempty"
+    },
+    "custard": {
+      "textures": "textures/items/custard"
+    },
+    "custardopen": {
+      "textures": "textures/items/custardopen"
+    },
+    "deadbull": {
+      "textures": "textures/items/deadbull"
+    },
+    "deadbullempty": {
+      "textures": "textures/items/deadbullempty"
+    },
+    "icetea": {
+      "textures": "textures/items/icetea"
+    },
+    "iceteaempty": {
+      "textures": "textures/items/iceteaempty"
+    },
+    "ironbrew": {
+      "textures": "textures/items/ironbrew"
+    },
+    "ironbrewempty": {
+      "textures": "textures/items/ironbrewempty"
+    },
+    "juice": {
+      "textures": "textures/items/juice"
+    },
+    "juiceempty": {
+      "textures": "textures/items/juiceempty"
+    },
+    "lemonfizz": {
+      "textures": "textures/items/lemonfizz"
+    },
+    "lemonfizzempty": {
+      "textures": "textures/items/lemonfizzempty"
+    },
+    "medpack": {
+      "textures": "textures/items/medpack"
+    },
+    "milk": {
+      "textures": "textures/items/milk"
+    },
+    "milkempty": {
+      "textures": "textures/items/milkempty"
+    },
+    "milkrotten": {
+      "textures": "textures/items/milkrotten"
+    },
+    "mre": {
+      "textures": "textures/items/mre"
+    },
+    "noodles": {
+      "textures": "textures/items/noodles"
+    },
+    "orange": {
+      "textures": "textures/items/orange"
+    },
+    "orangerotten": {
+      "textures": "textures/items/orangerotten"
+    },
+    "pasta": {
+      "textures": "textures/items/pasta"
+    },
+    "pastaopen": {
+      "textures": "textures/items/pastaopen"
+    },
+    "peach": {
+      "textures": "textures/items/peach"
+    },
+    "peachopen": {
+      "textures": "textures/items/peachopen"
+    },
+    "pear": {
+      "textures": "textures/items/pear"
+    },
+    "pearrotten": {
+      "textures": "textures/items/pearrotten"
+    },
+    "popcorn": {
+      "textures": "textures/items/popcorn"
+    },
+    "powerbar": {
+      "textures": "textures/items/powerbar"
+    },
+    "raspberry": {
+      "textures": "textures/items/raspberry"
+    },
+    "raspberryrotten": {
+      "textures": "textures/items/raspberryrotten"
+    },
+    "rice": {
+      "textures": "textures/items/rice"
+    },
+    "screwdriver": {
+      "textures": "textures/items/screwdriver"
+    },
+    "sodacola": {
+      "textures": "textures/items/sodacola"
+    },
+    "sodacolaempty": {
+      "textures": "textures/items/sodacolaempty"
+    },
+    "sodadew": {
+      "textures": "textures/items/sodadew"
+    },
+    "sodadewempty": {
+      "textures": "textures/items/sodadewempty"
+    },
+    "sodaorange": {
+      "textures": "textures/items/sodaorange"
+    },
+    "sodaorangeempty": {
+      "textures": "textures/items/sodaorangeempty"
+    },
+    "sodapepe": {
+      "textures": "textures/items/sodapepe"
+    },
+    "sodapepeempty": {
+      "textures": "textures/items/sodapepeempty"
+    },
+    "sprite": {
+      "textures": "textures/items/sprite"
+    },
+    "spriteempty": {
+      "textures": "textures/items/spriteempty"
+    },
+    "tacticalbacon": {
+      "textures": "textures/items/tacticalbacon"
+    },
+    "tacticalbaconopen": {
+      "textures": "textures/items/tacticalbaconopen"
+    },
+    "tomatosoup": {
+      "textures": "textures/items/tomatosoup"
+    },
+    "tomatosoupopen": {
+      "textures": "textures/items/tomatosoupopen"
+    },
+    "tuna": {
+      "textures": "textures/items/tuna"
+    },
+    "tunaopen": {
+      "textures": "textures/items/tunaopen"
+    },
+    "waterbottle": {
+      "textures": "textures/items/waterbottle"
+    },
+    "waterbottleempty": {
+      "textures": "textures/items/waterbottleempty"
+    },
+    "watercanteen": {
+      "textures": "textures/items/watercanteen"
+    },
+    "watercanteenempty": {
+      "textures": "textures/items/watercanteenempty"
+    },
+    "watermelon": {
+      "textures": "textures/items/watermelon"
+    },
+    "watermelonrotten": {
+      "textures": "textures/items/watermelonrotten"
+    },
+    "zombieenergy": {
+      "textures": "textures/items/zombieenergy"
+    },
+    "zombieenergyempty": {
+      "textures": "textures/items/zombieenergyempty"
+    },
+    "adrenaline": {
+      "textures": "textures/items/adrenaline"
+    },
+    "ragclean": {
+      "textures": "textures/items/ragclean"
+    },
+    "ragdirty": {
+      "textures": "textures/items/ragdirty"
+    },
+    "ragbloody": {
+      "textures": "textures/items/ragbloody"
+    },
+    "rope": {
+      "textures": "textures/items/rope"
+    },
+    "splitlog": {
+      "textures": "textures/items/splitlog"
+    },
+    "frag": {
+      "textures": "textures/grenades/frag"
+    },
+    "smoke": {
+      "textures": "textures/grenades/smoke"
+    },
+    "flashbang": {
+      "textures": "textures/grenades/flashbang"
+    },
+    "firegrenade": {
+      "textures": "textures/grenades/firegrenade"
+    },
+    "pipebomb": {
+      "textures": "textures/grenades/pipebomb"
+    },
+    "decoy": {
+      "textures": "textures/grenades/decoy"
+    },
+    "gas": {
+      "textures": "textures/grenades/gas"
+    },
+    "acr": {
+      "textures": "textures/guns/acr"
+    },
+    "acr_empty": {
+      "textures": "textures/guns/acr_empty"
+    },
+    "ak47": {
+      "textures": "textures/guns/ak47"
+    },
+    "ak47_empty": {
+      "textures": "textures/guns/ak47_empty"
+    },
+    "as50": {
+      "textures": "textures/guns/as50"
+    },
+    "as50_empty": {
+      "textures": "textures/guns/as50_empty"
+    },
+    "awp": {
+      "textures": "textures/guns/awp"
+    },
+    "awp_empty": {
+      "textures": "textures/guns/awp_empty"
+    },
+    "deagle": {
+      "textures": "textures/guns/deagle"
+    },
+    "deagle_empty": {
+      "textures": "textures/guns/deagle_empty"
+    },
+    "dmr": {
+      "textures": "textures/guns/dmr"
+    },
+    "dmr_empty": {
+      "textures": "textures/guns/dmr_empty"
+    },
+    "fn57": {
+      "textures": "textures/guns/fn57"
+    },
+    "fn57_empty": {
+      "textures": "textures/guns/fn57_empty"
+    },
+    "fnfal": {
+      "textures": "textures/guns/fnfal"
+    },
+    "fnfal_empty": {
+      "textures": "textures/guns/fnfal_empty"
+    },
+    "g36c": {
+      "textures": "textures/guns/g36c"
+    },
+    "g36c_empty": {
+      "textures": "textures/guns/g36c_empty"
+    },
+    "glock18": {
+      "textures": "textures/guns/glock18"
+    },
+    "glock18_empty": {
+      "textures": "textures/guns/glock18_empty"
+    },
+    "hk417": {
+      "textures": "textures/guns/hk417"
+    },
+    "hk417_empty": {
+      "textures": "textures/guns/hk417_empty"
+    },
+    "m1garand": {
+      "textures": "textures/guns/m1garand"
+    },
+    "m1garand_empty": {
+      "textures": "textures/guns/m1garand_empty"
+    },
+    "m4a1": {
+      "textures": "textures/guns/m4a1"
+    },
+    "m4a1_empty": {
+      "textures": "textures/guns/m4a1_empty"
+    },
+    "m9": {
+      "textures": "textures/guns/m9"
+    },
+    "m9_empty": {
+      "textures": "textures/guns/m9_empty"
+    },
+
+    "m107": {
+      "textures": "textures/guns/m107"
+    },
+    "m107_empty": {
+      "textures": "textures/guns/m107_empty"
+    },
+    "m240b": {
+      "textures": "textures/guns/m240b"
+    },
+    "m240b_empty": {
+      "textures": "textures/guns/m240b_empty"
+    },
+    "m1911": {
+      "textures": "textures/guns/m1911"
+    },
+    "m1911_empty": {
+      "textures": "textures/guns/m1911_empty"
+    },
+
+    "mac10": {
+      "textures": "textures/guns/mac10"
+    },
+    "mac10_empty": {
+      "textures": "textures/guns/mac10_empty"
+    },
+    "magnum": {
+      "textures": "textures/guns/magnum"
+    },
+    "magnum_empty": {
+      "textures": "textures/guns/magnum_empty"
+    },
+    "minigun": {
+      "textures": "textures/guns/minigun"
+    },
+    "minigun_empty": {
+      "textures": "textures/guns/minigun_empty"
+    },
+
+    "mk48mod": {
+      "textures": "textures/guns/mk48mod"
+    },
+    "mk48mod_empty": {
+      "textures": "textures/guns/mk48mod_empty"
+    },
+
+    "mossberg500": {
+      "textures": "textures/guns/mossberg500"
+    },
+    "mossberg500_empty": {
+      "textures": "textures/guns/mossberg500_empty"
+    },
+    "mp5": {
+      "textures": "textures/guns/mp5"
+    },
+    "mp5_empty": {
+      "textures": "textures/guns/mp5_empty"
+    },
+    "mpt55": {
+      "textures": "textures/guns/mpt55"
+    },
+    "mpt55_empty": {
+      "textures": "textures/guns/mpt55_empty"
+    },
+
+    "p90": {
+      "textures": "textures/guns/p90"
+    },
+    "p90_empty": {
+      "textures": "textures/guns/p90_empty"
+    },
+    "r870": {
+      "textures": "textures/guns/r870"
+    },
+    "r870_empty": {
+      "textures": "textures/guns/r870_empty"
+    },
+    "p250": {
+      "textures": "textures/guns/p250"
+    },
+    "p250_empty": {
+      "textures": "textures/guns/p250_empty"
+    },
+    "rpk": {
+      "textures": "textures/guns/rpk"
+    },
+    "rpk_empty": {
+      "textures": "textures/guns/rpk_empty"
+    },
+    "scar": {
+      "textures": "textures/guns/scar"
+    },
+    "scar_empty": {
+      "textures": "textures/guns/scar_empty"
+    },
+    "sporter22": {
+      "textures": "textures/guns/sporter22"
+    },
+    "sporter22_empty": {
+      "textures": "textures/guns/sporter22_empty"
+    },
+
+    "vector": {
+      "textures": "textures/guns/vector"
+    },
+    "vector_empty": {
+      "textures": "textures/guns/vector_empty"
+    }
+  }
+}
