@@ -1,0 +1,34 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "backpack:smallblue",
+      "materials": {
+        "default": "skeleton"
+      },
+      "textures": {
+        "default": "textures/entity/backpack/small/smallbluebackpack"
+      },
+      "animations": {
+        "swimming": "animation.backpack.swimming"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "swimming": "query.is_in_water"
+          }
+        ]
+      },
+      "geometry": {
+        "default": "geometry.smallbackpack"
+      },
+      "spawn_egg": {
+        "texture": "smallbluebackpack",
+        "texture_index": 0
+      },
+      "render_controllers": [
+        "controller.render.backpack"
+      ]
+    }
+  }
+}

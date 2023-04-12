@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "grenade:decoy",
+      "materials": { "default": "iron_golem" },
+      "textures": {
+        "default": "textures/grenade_entity/decoy"
+      },
+      "geometry": {
+        "default": "geometry.flashbang"
+      },
+      
+"spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 21
+      },
+      
+      "render_controllers": [ "controller.render.iron_golem" ]
+    }
+  }
+}

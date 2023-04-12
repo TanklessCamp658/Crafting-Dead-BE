@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "grenade:smoke",
+      "materials": { "default": "iron_golem" },
+      "textures": {
+        "default": "textures/grenade_entity/smoke"
+      },
+      "geometry": {
+        "default": "geometry.smokegrenade"
+      },
+      
+"spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 21
+      },
+      
+      "render_controllers": [ "controller.render.iron_golem" ]
+    }
+  }
+}

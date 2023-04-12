@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "grenade:frag",
+      "materials": { "default": "iron_golem" },
+      "textures": {
+        "default": "textures/grenade_entity/frag"
+      },
+      "geometry": {
+        "default": "geometry.frag"
+      },
+      
+"spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 21
+      },
+      
+      "render_controllers": [ "controller.render.iron_golem" ]
+    }
+  }
+}
