@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.m1garand.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.m1garand"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "m1garand.first_person.draw": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m1garand && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "m1garand.first_person.holding": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.m1garand && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.m1garand && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm1garand_empty' && query.get_equipped_item_name('off_hand') == 'm1garandclip'"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "m1garand.first_person.sprinting": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.m1garand && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm1garand_empty' && query.get_equipped_item_name('off_hand') == 'm1garandclip'"
+            },
+            {
+              "default": "variable.m1garand && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "m1garand.first_person.aim": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm1garand_empty' && query.get_equipped_item_name('off_hand') == 'm1garandclip'"
+            },
+            {
+              "default": "variable.m1garand && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "m1garand.first_person.reload": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m1garand && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.m1garand.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.m1garand"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "m1garand.third_person.draw": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m1garand && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "m1garand.third_person.holding": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.m1garand && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.m1garand && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm1garand_empty' && query.get_equipped_item_name('off_hand') == 'm1garandclip'"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "m1garand.third_person.sprinting": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.m1garand && query.is_sneaking"
+            },
+            {
+              "default": "variable.m1garand && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm1garand_empty' && query.get_equipped_item_name('off_hand') == 'm1garandclip'"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "m1garand.third_person.aim": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m1garand && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm1garand_empty' && query.get_equipped_item_name('off_hand') == 'm1garandclip'"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "m1garand.third_person.reload": "variable.m1garand"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m1garand && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.m1garand"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

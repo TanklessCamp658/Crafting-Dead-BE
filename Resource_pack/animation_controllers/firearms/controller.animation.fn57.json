@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.fn57.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.fn57"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "fn57.first_person.draw": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fn57 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "fn57.first_person.holding": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.fn57 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.fn57 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fn57_empty' && query.get_equipped_item_name('off_hand') == 'fn57clip'"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "fn57.first_person.sprinting": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.fn57 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fn57_empty' && query.get_equipped_item_name('off_hand') == 'fn57clip'"
+            },
+            {
+              "default": "variable.fn57 && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "fn57.first_person.aim": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fn57_empty' && query.get_equipped_item_name('off_hand') == 'fn57clip'"
+            },
+            {
+              "default": "variable.fn57 && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "fn57.first_person.reload": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fn57 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.fn57.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.fn57"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "fn57.third_person.draw": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fn57 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "fn57.third_person.holding": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.fn57 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.fn57 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fn57_empty' && query.get_equipped_item_name('off_hand') == 'fn57clip'"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "fn57.third_person.sprinting": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.fn57 && query.is_sneaking"
+            },
+            {
+              "default": "variable.fn57 && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fn57_empty' && query.get_equipped_item_name('off_hand') == 'fn57clip'"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "fn57.third_person.aim": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fn57 && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fn57_empty' && query.get_equipped_item_name('off_hand') == 'fn57clip'"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "fn57.third_person.reload": "variable.fn57"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fn57 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.fn57"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

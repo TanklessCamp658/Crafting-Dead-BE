@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.rpk.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.rpk"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "rpk.first_person.draw": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.rpk && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "rpk.first_person.holding": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.rpk && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.rpk && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'rpk_empty' && query.get_equipped_item_name('off_hand') == 'rpkclip'"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "rpk.first_person.sprinting": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.rpk && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'rpk_empty' && query.get_equipped_item_name('off_hand') == 'rpkclip'"
+            },
+            {
+              "default": "variable.rpk && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "rpk.first_person.aim": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'rpk_empty' && query.get_equipped_item_name('off_hand') == 'rpkclip'"
+            },
+            {
+              "default": "variable.rpk && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "rpk.first_person.reload": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.rpk && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.rpk.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.rpk"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "rpk.third_person.draw": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.rpk && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "rpk.third_person.holding": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.rpk && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.rpk && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'rpk_empty' && query.get_equipped_item_name('off_hand') == 'rpkclip'"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "rpk.third_person.sprinting": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.rpk && query.is_sneaking"
+            },
+            {
+              "default": "variable.rpk && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'rpk_empty' && query.get_equipped_item_name('off_hand') == 'rpkclip'"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "rpk.third_person.aim": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.rpk && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'rpk_empty' && query.get_equipped_item_name('off_hand') == 'rpkclip'"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "rpk.third_person.reload": "variable.rpk"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.rpk && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.rpk"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

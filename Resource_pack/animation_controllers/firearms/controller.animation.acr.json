@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.acr.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.acr"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "acr.first_person.draw": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.acr && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "acr.first_person.holding": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.acr && query.mark_variant==0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.acr && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'acr_empty' && query.get_equipped_item_name('off_hand') == 'acrclip'"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "acr.first_person.sprinting": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.acr && query.mark_variant==0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'acr_empty' && query.get_equipped_item_name('off_hand') == 'acrclip'"
+            },
+            {
+              "default": "variable.acr && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "acr.first_person.aim": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'acr_empty' && query.get_equipped_item_name('off_hand') == 'acrclip'"
+            },
+            {
+              "default": "variable.acr && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "acr.first_person.reload": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.acr && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.acr.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.acr"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "acr.third_person.draw": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.acr && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "acr.third_person.holding": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.acr && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.acr && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'acr_empty' && query.get_equipped_item_name('off_hand') == 'acrclip'"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "acr.third_person.sprinting": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.acr && query.is_sneaking"
+            },
+            {
+              "default": "variable.acr && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'acr_empty' && query.get_equipped_item_name('off_hand') == 'acrclip'"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "acr.third_person.aim": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.acr && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'acr_empty' && query.get_equipped_item_name('off_hand') == 'acrclip'"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "acr.third_person.reload": "variable.acr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.acr && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.acr"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

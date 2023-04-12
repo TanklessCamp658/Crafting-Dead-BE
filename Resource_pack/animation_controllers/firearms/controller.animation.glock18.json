@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.glock18.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.glock18"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "glock18.first_person.draw": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.glock18 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "glock18.first_person.holding": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.glock18 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.glock18 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'glock18_empty' && query.get_equipped_item_name('off_hand') == 'glock18clip'"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "glock18.first_person.sprinting": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.glock18 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'glock18_empty' && query.get_equipped_item_name('off_hand') == 'glock18clip'"
+            },
+            {
+              "default": "variable.glock18 && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "glock18.first_person.aim": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'glock18_empty' && query.get_equipped_item_name('off_hand') == 'glock18clip'"
+            },
+            {
+              "default": "variable.glock18 && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "glock18.first_person.reload": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.glock18 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.glock18.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.glock18"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "glock18.third_person.draw": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.glock18 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "glock18.third_person.holding": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.glock18 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.glock18 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'glock18_empty' && query.get_equipped_item_name('off_hand') == 'glock18clip'"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "glock18.third_person.sprinting": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.glock18 && query.is_sneaking"
+            },
+            {
+              "default": "variable.glock18 && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'glock18_empty' && query.get_equipped_item_name('off_hand') == 'glock18clip'"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "glock18.third_person.aim": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.glock18 && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'glock18_empty' && query.get_equipped_item_name('off_hand') == 'glock18clip'"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "glock18.third_person.reload": "variable.glock18"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.glock18 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.glock18"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.r870.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.r870"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "r870.first_person.draw": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.r870 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "r870.first_person.holding": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.r870 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.r870 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'r870_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "r870.first_person.sprinting": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.r870 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'r870_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "default": "variable.r870 && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "r870.first_person.aim": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'r870_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "default": "variable.r870 && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "r870.first_person.reload": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.r870 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.r870.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.r870"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "r870.third_person.draw": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.r870 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "r870.third_person.holding": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.r870 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.r870 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'r870_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "r870.third_person.sprinting": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.r870 && query.is_sneaking"
+            },
+            {
+              "default": "variable.r870 && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'r870_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "r870.third_person.aim": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.r870 && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'r870_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "r870.third_person.reload": "variable.r870"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.r870 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.r870"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

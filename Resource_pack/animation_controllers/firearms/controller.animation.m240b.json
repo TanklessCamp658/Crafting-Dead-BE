@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.m240b.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.m240b"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "m240b.first_person.draw": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m240b && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "m240b.first_person.holding": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.m240b && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.m240b && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm240b_empty' && query.get_equipped_item_name('off_hand') == 'm240bclip'"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "m240b.first_person.sprinting": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.m240b && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm240b_empty' && query.get_equipped_item_name('off_hand') == 'm240bclip'"
+            },
+            {
+              "default": "variable.m240b && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "m240b.first_person.aim": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm240b_empty' && query.get_equipped_item_name('off_hand') == 'm240bclip'"
+            },
+            {
+              "default": "variable.m240b && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "m240b.first_person.reload": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m240b && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.m240b.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.m240b"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "m240b.third_person.draw": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m240b && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "m240b.third_person.holding": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.m240b && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.m240b && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm240b_empty' && query.get_equipped_item_name('off_hand') == 'm240bclip'"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "m240b.third_person.sprinting": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.m240b && query.is_sneaking"
+            },
+            {
+              "default": "variable.m240b && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm240b_empty' && query.get_equipped_item_name('off_hand') == 'm240bclip'"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "m240b.third_person.aim": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m240b && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'm240b_empty' && query.get_equipped_item_name('off_hand') == 'm240bclip'"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "m240b.third_person.reload": "variable.m240b"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.m240b && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.m240b"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

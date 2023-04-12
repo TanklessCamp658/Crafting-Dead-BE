@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.ak47.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.ak47"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "ak47.first_person.draw": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.ak47 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "ak47.first_person.holding": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.ak47 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.ak47 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'ak47_empty' && query.get_equipped_item_name('off_hand') == 'akm30rnd'"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "ak47.first_person.sprinting": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.ak47 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'ak47_empty' && query.get_equipped_item_name('off_hand') == 'akm30rnd'"
+            },
+            {
+              "default": "variable.ak47 && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "ak47.first_person.aim": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'ak47_empty' && query.get_equipped_item_name('off_hand') == 'akm30rnd'"
+            },
+            {
+              "default": "variable.ak47 && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "ak47.first_person.reload": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.ak47 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.ak47.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.ak47"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "ak47.third_person.draw": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.ak47 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "ak47.third_person.holding": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.ak47 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.ak47 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'ak47_empty' && query.get_equipped_item_name('off_hand') == 'akm30rnd'"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "ak47.third_person.sprinting": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.ak47 && query.is_sneaking"
+            },
+            {
+              "default": "variable.ak47 && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'ak47_empty' && query.get_equipped_item_name('off_hand') == 'akm30rnd'"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "ak47.third_person.aim": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.ak47 && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'ak47_empty' && query.get_equipped_item_name('off_hand') == 'akm30rnd'"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "ak47.third_person.reload": "variable.ak47"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.ak47 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.ak47"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

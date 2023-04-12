@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.fnfal.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.fnfal"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "fnfal.first_person.draw": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fnfal && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "fnfal.first_person.holding": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.fnfal && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.fnfal && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fnfal_empty' && query.get_equipped_item_name('off_hand') == 'fnfalclip'"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "fnfal.first_person.sprinting": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.fnfal && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fnfal_empty' && query.get_equipped_item_name('off_hand') == 'fnfalclip'"
+            },
+            {
+              "default": "variable.fnfal && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "fnfal.first_person.aim": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fnfal_empty' && query.get_equipped_item_name('off_hand') == 'fnfalclip'"
+            },
+            {
+              "default": "variable.fnfal && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "fnfal.first_person.reload": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fnfal && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.fnfal.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.fnfal"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "fnfal.third_person.draw": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fnfal && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "fnfal.third_person.holding": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.fnfal && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.fnfal && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fnfal_empty' && query.get_equipped_item_name('off_hand') == 'fnfalclip'"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "fnfal.third_person.sprinting": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.fnfal && query.is_sneaking"
+            },
+            {
+              "default": "variable.fnfal && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fnfal_empty' && query.get_equipped_item_name('off_hand') == 'fnfalclip'"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "fnfal.third_person.aim": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fnfal && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'fnfal_empty' && query.get_equipped_item_name('off_hand') == 'fnfalclip'"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "fnfal.third_person.reload": "variable.fnfal"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.fnfal && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.fnfal"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

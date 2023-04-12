@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mpt55.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.mpt55"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "mpt55.first_person.draw": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mpt55 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "mpt55.first_person.holding": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mpt55 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.mpt55 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mpt55_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "mpt55.first_person.sprinting": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mpt55 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mpt55_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "default": "variable.mpt55 && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "mpt55.first_person.aim": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mpt55_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "default": "variable.mpt55 && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "mpt55.first_person.reload": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mpt55 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.mpt55.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.mpt55"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "mpt55.third_person.draw": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mpt55 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "mpt55.third_person.holding": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mpt55 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.mpt55 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mpt55_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "mpt55.third_person.sprinting": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mpt55 && query.is_sneaking"
+            },
+            {
+              "default": "variable.mpt55 && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mpt55_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "mpt55.third_person.aim": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mpt55 && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mpt55_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "mpt55.third_person.reload": "variable.mpt55"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mpt55 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mpt55"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

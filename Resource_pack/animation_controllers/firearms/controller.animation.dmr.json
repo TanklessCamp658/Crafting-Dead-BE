@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.dmr.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.dmr"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "dmr.first_person.draw": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.dmr && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "dmr.first_person.holding": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.dmr && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.dmr && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'dmr_empty' && query.get_equipped_item_name('off_hand') == 'dmrclip'"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "dmr.first_person.sprinting": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.dmr && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'dmr_empty' && query.get_equipped_item_name('off_hand') == 'dmrclip'"
+            },
+            {
+              "default": "variable.dmr && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "dmr.first_person.aim": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'dmr_empty' && query.get_equipped_item_name('off_hand') == 'dmrclip'"
+            },
+            {
+              "default": "variable.dmr && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "dmr.first_person.reload": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.dmr && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.dmr.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.dmr"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "dmr.third_person.draw": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.dmr && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "dmr.third_person.holding": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.dmr && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.dmr && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'dmr_empty' && query.get_equipped_item_name('off_hand') == 'dmrclip'"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "dmr.third_person.sprinting": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.dmr && query.is_sneaking"
+            },
+            {
+              "default": "variable.dmr && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'dmr_empty' && query.get_equipped_item_name('off_hand') == 'dmrclip'"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "dmr.third_person.aim": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.dmr && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'dmr_empty' && query.get_equipped_item_name('off_hand') == 'dmrclip'"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "dmr.third_person.reload": "variable.dmr"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.dmr && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.dmr"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

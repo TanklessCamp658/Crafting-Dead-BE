@@ -1,0 +1,1625 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.fire": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "acr.first_person.fire": "query.get_equipped_item_name('main_hand') == 'acr' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "acr.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'acr' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "acr.third_person.fire": "query.get_equipped_item_name('main_hand') == 'acr' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "acr.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'acr' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "ak47.first_person.fire": "query.get_equipped_item_name('main_hand') == 'ak47' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "ak47.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'ak47' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "ak47.third_person.fire": "query.get_equipped_item_name('main_hand') == 'ak47' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "ak47.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'ak47' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "as50.first_person.fire": "query.get_equipped_item_name('main_hand') == 'as50' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "as50.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'as50' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "as50.third_person.fire": "query.get_equipped_item_name('main_hand') == 'as50' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "as50.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'as50' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "awp.first_person.fire": "query.get_equipped_item_name('main_hand') == 'awp' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "awp.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'awp' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "awp.third_person.fire": "query.get_equipped_item_name('main_hand') == 'awp' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "awp.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'awp' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "deagle.first_person.fire": "query.get_equipped_item_name('main_hand') == 'deagle' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "deagle.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'deagle' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "deagle.third_person.fire": "query.get_equipped_item_name('main_hand') == 'deagle' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "deagle.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'deagle' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "dmr.first_person.fire": "query.get_equipped_item_name('main_hand') == 'dmr' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "dmr.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'dmr' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "dmr.third_person.fire": "query.get_equipped_item_name('main_hand') == 'dmr' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "dmr.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'dmr' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "fn57.first_person.fire": "query.get_equipped_item_name('main_hand') == 'fn57' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "fn57.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'fn57' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "fn57.third_person.fire": "query.get_equipped_item_name('main_hand') == 'fn57' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "fn57.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'fn57' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "fnfal.first_person.fire": "query.get_equipped_item_name('main_hand') == 'fnfal' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "fnfal.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'fnfal' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "fnfal.third_person.fire": "query.get_equipped_item_name('main_hand') == 'fnfal' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "fnfal.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'fnfal' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "g36c.first_person.fire": "query.get_equipped_item_name('main_hand') == 'g36c' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "g36c.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'g36c' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "g36c.third_person.fire": "query.get_equipped_item_name('main_hand') == 'g36c' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "g36c.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'g36c' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "glock18.first_person.fire": "query.get_equipped_item_name('main_hand') == 'glock18' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "glock18.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'glock18' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "glock18.third_person.fire": "query.get_equipped_item_name('main_hand') == 'glock18' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "glock18.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'glock18' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "hk417.first_person.fire": "query.get_equipped_item_name('main_hand') == 'hk417' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "hk417.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'hk417' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "hk417.third_person.fire": "query.get_equipped_item_name('main_hand') == 'hk417' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "hk417.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'hk417' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m1garand.first_person.fire": "query.get_equipped_item_name('main_hand') == 'm1garand' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m1garand.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm1garand' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m1garand.third_person.fire": "query.get_equipped_item_name('main_hand') == 'm1garand' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m1garand.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm1garand' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m4a1.first_person.fire": "query.get_equipped_item_name('main_hand') == 'm4a1' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m4a1.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm4a1' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m4a1.third_person.fire": "query.get_equipped_item_name('main_hand') == 'm4a1' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m4a1.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm4a1' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m9.first_person.fire": "query.get_equipped_item_name('main_hand') == 'm9' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m9.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm9' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m9.third_person.fire": "query.get_equipped_item_name('main_hand') == 'm9' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m9.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm9' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m107.first_person.fire": "query.get_equipped_item_name('main_hand') == 'm107' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m107.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm107' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m107.third_person.fire": "query.get_equipped_item_name('main_hand') == 'm107' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m107.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm107' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m240b.first_person.fire": "query.get_equipped_item_name('main_hand') == 'm240b' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m240b.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm240b' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m240b.third_person.fire": "query.get_equipped_item_name('main_hand') == 'm240b' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m240b.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm240b' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m1911.first_person.fire": "query.get_equipped_item_name('main_hand') == 'm1911' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m1911.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm1911' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "m1911.third_person.fire": "query.get_equipped_item_name('main_hand') == 'm1911' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "m1911.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'm1911' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mac10.first_person.fire": "query.get_equipped_item_name('main_hand') == 'mac10' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mac10.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mac10' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mac10.third_person.fire": "query.get_equipped_item_name('main_hand') == 'mac10' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mac10.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mac10' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "magnum.first_person.fire": "query.get_equipped_item_name('main_hand') == 'magnum' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "magnum.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'magnum' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "magnum.third_person.fire": "query.get_equipped_item_name('main_hand') == 'magnum' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "magnum.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'magnum' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "minigun.first_person.fire": "query.get_equipped_item_name('main_hand') == 'minigun' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "minigun.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'minigun' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "minigun.third_person.fire": "query.get_equipped_item_name('main_hand') == 'minigun' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "minigun.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'minigun' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mk48mod.first_person.fire": "query.get_equipped_item_name('main_hand') == 'mk48mod' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mk48mod.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mk48mod' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mk48mod.third_person.fire": "query.get_equipped_item_name('main_hand') == 'mk48mod' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mk48mod.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mk48mod' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mossberg500.first_person.fire": "query.get_equipped_item_name('main_hand') == 'mossberg500' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mossberg500.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mossberg500' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mossberg500.third_person.fire": "query.get_equipped_item_name('main_hand') == 'mossberg500' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mossberg500.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mossberg500' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mp5.first_person.fire": "query.get_equipped_item_name('main_hand') == 'mp5' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mp5.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mp5' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mp5.third_person.fire": "query.get_equipped_item_name('main_hand') == 'mp5' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mp5.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mp5' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mpt55.first_person.fire": "query.get_equipped_item_name('main_hand') == 'mpt55' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mpt55.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mpt55' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "mpt55.third_person.fire": "query.get_equipped_item_name('main_hand') == 'mpt55' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "mpt55.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'mpt55' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "p90.first_person.fire": "query.get_equipped_item_name('main_hand') == 'p90' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "p90.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'p90' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "p90.third_person.fire": "query.get_equipped_item_name('main_hand') == 'p90' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "p90.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'p90' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "p250.first_person.fire": "query.get_equipped_item_name('main_hand') == 'p250' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "p250.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'p250' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "p250.third_person.fire": "query.get_equipped_item_name('main_hand') == 'p250' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "p250.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'p250' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "r870.first_person.fire": "query.get_equipped_item_name('main_hand') == 'r870' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "r870.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'r870' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "r870.third_person.fire": "query.get_equipped_item_name('main_hand') == 'r870' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "r870.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'r870' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "rpk.first_person.fire": "query.get_equipped_item_name('main_hand') == 'rpk' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "rpk.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'rpk' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "rpk.third_person.fire": "query.get_equipped_item_name('main_hand') == 'rpk' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "rpk.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'rpk' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "scar.first_person.fire": "query.get_equipped_item_name('main_hand') == 'scar' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "scar.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'scar' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "scar.third_person.fire": "query.get_equipped_item_name('main_hand') == 'scar' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "scar.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'scar' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "sporter22.first_person.fire": "query.get_equipped_item_name('main_hand') == 'sporter22' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "sporter22.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'sporter22' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "sporter22.third_person.fire": "query.get_equipped_item_name('main_hand') == 'sporter22' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "sporter22.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'sporter22' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "vector.first_person.fire": "query.get_equipped_item_name('main_hand') == 'vector' && !query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "vector.first_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'vector' && query.is_sneaking && query.is_using_item && variable.is_first_person"
+            },
+            {
+              "vector.third_person.fire": "query.get_equipped_item_name('main_hand') == 'vector' && !query.is_sneaking && query.is_using_item && variable.is_third_person"
+            },
+            {
+              "vector.third_person.aim_fire": "query.get_equipped_item_name('main_hand') == 'vector' && query.is_sneaking && query.is_using_item && variable.is_third_person"
+            }
+          ]
+        },
+        "acr.first_person.fire": {
+          "animations": [
+            "acr.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "acr.first_person.aim_fire": {
+          "animations": [
+            "acr.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "acr.third_person.fire": {
+          "animations": [
+            "acr.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "acr.third_person.aim_fire": {
+          "animations": [
+            "acr.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "ak47.first_person.fire": {
+          "animations": [
+            "ak47.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "ak47.first_person.aim_fire": {
+          "animations": [
+            "ak47.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "ak47.third_person.fire": {
+          "animations": [
+            "ak47.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "ak47.third_person.aim_fire": {
+          "animations": [
+            "ak47.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "as50.first_person.fire": {
+          "animations": [
+            "as50.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "as50.first_person.aim_fire": {
+          "animations": [
+            "as50.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "as50.third_person.fire": {
+          "animations": [
+            "as50.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "as50.third_person.aim_fire": {
+          "animations": [
+            "as50.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "awp.first_person.fire": {
+          "animations": [
+            "awp.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "awp.first_person.aim_fire": {
+          "animations": [
+            "awp.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "awp.third_person.fire": {
+          "animations": [
+            "awp.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "awp.third_person.aim_fire": {
+          "animations": [
+            "awp.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "deagle.first_person.fire": {
+          "animations": [
+            "deagle.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "deagle.first_person.aim_fire": {
+          "animations": [
+            "deagle.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "deagle.third_person.fire": {
+          "animations": [
+            "deagle.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "deagle.third_person.aim_fire": {
+          "animations": [
+            "deagle.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "dmr.first_person.fire": {
+          "animations": [
+            "dmr.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "dmr.first_person.aim_fire": {
+          "animations": [
+            "dmr.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "dmr.third_person.fire": {
+          "animations": [
+            "dmr.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "dmr.third_person.aim_fire": {
+          "animations": [
+            "dmr.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "fn57.first_person.fire": {
+          "animations": [
+            "fn57.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "fn57.first_person.aim_fire": {
+          "animations": [
+            "fn57.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "fn57.third_person.fire": {
+          "animations": [
+            "fn57.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "fn57.third_person.aim_fire": {
+          "animations": [
+            "fn57.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "fnfal.first_person.fire": {
+          "animations": [
+            "fnfal.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "fnfal.first_person.aim_fire": {
+          "animations": [
+            "fnfal.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "fnfal.third_person.fire": {
+          "animations": [
+            "fnfal.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "fnfal.third_person.aim_fire": {
+          "animations": [
+            "fnfal.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "g36c.first_person.fire": {
+          "animations": [
+            "g36c.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "g36c.first_person.aim_fire": {
+          "animations": [
+            "g36c.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "g36c.third_person.fire": {
+          "animations": [
+            "g36c.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "g36c.third_person.aim_fire": {
+          "animations": [
+            "g36c.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "glock18.first_person.fire": {
+          "animations": [
+            "glock18.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "glock18.first_person.aim_fire": {
+          "animations": [
+            "glock18.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "glock18.third_person.fire": {
+          "animations": [
+            "glock18.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "glock18.third_person.aim_fire": {
+          "animations": [
+            "glock18.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "hk417.first_person.fire": {
+          "animations": [
+            "hk417.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "hk417.first_person.aim_fire": {
+          "animations": [
+            "hk417.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "hk417.third_person.fire": {
+          "animations": [
+            "hk417.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "hk417.third_person.aim_fire": {
+          "animations": [
+            "hk417.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m1garand.first_person.fire": {
+          "animations": [
+            "m1garand.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m1garand.first_person.aim_fire": {
+          "animations": [
+            "m1garand.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m1garand.third_person.fire": {
+          "animations": [
+            "m1garand.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m1garand.third_person.aim_fire": {
+          "animations": [
+            "m1garand.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m4a1.first_person.fire": {
+          "animations": [
+            "m4a1.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m4a1.first_person.aim_fire": {
+          "animations": [
+            "m4a1.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m4a1.third_person.fire": {
+          "animations": [
+            "m4a1.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m4a1.third_person.aim_fire": {
+          "animations": [
+            "m4a1.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m9.first_person.fire": {
+          "animations": [
+            "m9.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m9.first_person.aim_fire": {
+          "animations": [
+            "m9.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m9.third_person.fire": {
+          "animations": [
+            "m9.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m9.third_person.aim_fire": {
+          "animations": [
+            "m9.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m107.first_person.fire": {
+          "animations": [
+            "m107.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m107.first_person.aim_fire": {
+          "animations": [
+            "m107.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m107.third_person.fire": {
+          "animations": [
+            "m107.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m107.third_person.aim_fire": {
+          "animations": [
+            "m107.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m240b.first_person.fire": {
+          "animations": [
+            "m240b.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m240b.first_person.aim_fire": {
+          "animations": [
+            "m240b.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m240b.third_person.fire": {
+          "animations": [
+            "m240b.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m240b.third_person.aim_fire": {
+          "animations": [
+            "m240b.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m1911.first_person.fire": {
+          "animations": [
+            "m1911.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m1911.first_person.aim_fire": {
+          "animations": [
+            "m1911.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m1911.third_person.fire": {
+          "animations": [
+            "m1911.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "m1911.third_person.aim_fire": {
+          "animations": [
+            "m1911.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mac10.first_person.fire": {
+          "animations": [
+            "mac10.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mac10.first_person.aim_fire": {
+          "animations": [
+            "mac10.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mac10.third_person.fire": {
+          "animations": [
+            "mac10.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mac10.third_person.aim_fire": {
+          "animations": [
+            "mac10.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "magnum.first_person.fire": {
+          "animations": [
+            "magnum.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "magnum.first_person.aim_fire": {
+          "animations": [
+            "magnum.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "magnum.third_person.fire": {
+          "animations": [
+            "magnum.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "magnum.third_person.aim_fire": {
+          "animations": [
+            "magnum.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "minigun.first_person.fire": {
+          "animations": [
+            "minigun.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "minigun.first_person.aim_fire": {
+          "animations": [
+            "minigun.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "minigun.third_person.fire": {
+          "animations": [
+            "minigun.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "minigun.third_person.aim_fire": {
+          "animations": [
+            "minigun.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mk48mod.first_person.fire": {
+          "animations": [
+            "mk48mod.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mk48mod.first_person.aim_fire": {
+          "animations": [
+            "mk48mod.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mk48mod.third_person.fire": {
+          "animations": [
+            "mk48mod.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mk48mod.third_person.aim_fire": {
+          "animations": [
+            "mk48mod.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mossberg500.first_person.fire": {
+          "animations": [
+            "mossberg500.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mossberg500.first_person.aim_fire": {
+          "animations": [
+            "mossberg500.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mossberg500.third_person.fire": {
+          "animations": [
+            "mossberg500.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mossberg500.third_person.aim_fire": {
+          "animations": [
+            "mossberg500.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mp5.first_person.fire": {
+          "animations": [
+            "mp5.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mp5.first_person.aim_fire": {
+          "animations": [
+            "mp5.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mp5.third_person.fire": {
+          "animations": [
+            "mp5.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mp5.third_person.aim_fire": {
+          "animations": [
+            "mp5.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mpt55.first_person.fire": {
+          "animations": [
+            "mpt55.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mpt55.first_person.aim_fire": {
+          "animations": [
+            "mpt55.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mpt55.third_person.fire": {
+          "animations": [
+            "mpt55.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "mpt55.third_person.aim_fire": {
+          "animations": [
+            "mpt55.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "p90.first_person.fire": {
+          "animations": [
+            "p90.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "p90.first_person.aim_fire": {
+          "animations": [
+            "p90.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "p90.third_person.fire": {
+          "animations": [
+            "p90.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "p90.third_person.aim_fire": {
+          "animations": [
+            "p90.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "p250.first_person.fire": {
+          "animations": [
+            "p250.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "p250.first_person.aim_fire": {
+          "animations": [
+            "p250.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "p250.third_person.fire": {
+          "animations": [
+            "p250.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "p250.third_person.aim_fire": {
+          "animations": [
+            "p250.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "r870.first_person.fire": {
+          "animations": [
+            "r870.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "r870.first_person.aim_fire": {
+          "animations": [
+            "r870.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "r870.third_person.fire": {
+          "animations": [
+            "r870.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "r870.third_person.aim_fire": {
+          "animations": [
+            "r870.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "rpk.first_person.fire": {
+          "animations": [
+            "rpk.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "rpk.first_person.aim_fire": {
+          "animations": [
+            "rpk.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "rpk.third_person.fire": {
+          "animations": [
+            "rpk.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "rpk.third_person.aim_fire": {
+          "animations": [
+            "rpk.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "scar.first_person.fire": {
+          "animations": [
+            "scar.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "scar.first_person.aim_fire": {
+          "animations": [
+            "scar.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "scar.third_person.fire": {
+          "animations": [
+            "scar.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "scar.third_person.aim_fire": {
+          "animations": [
+            "scar.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "sporter22.first_person.fire": {
+          "animations": [
+            "sporter22.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "sporter22.first_person.aim_fire": {
+          "animations": [
+            "sporter22.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "sporter22.third_person.fire": {
+          "animations": [
+            "sporter22.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "sporter22.third_person.aim_fire": {
+          "animations": [
+            "sporter22.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "vector.first_person.fire": {
+          "animations": [
+            "vector.first_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "vector.first_person.aim_fire": {
+          "animations": [
+            "vector.first_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "vector.third_person.fire": {
+          "animations": [
+            "vector.third_person.fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        },
+        "vector.third_person.aim_fire": {
+          "animations": [
+            "vector.third_person.aim_fire"
+          ],
+          "transitions": [
+            {
+              "default": "query.any_animation_finished"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

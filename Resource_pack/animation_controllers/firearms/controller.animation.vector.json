@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.vector.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.vector"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "vector.first_person.draw": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.vector && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "vector.first_person.holding": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.vector && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.vector && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'vector_empty' && query.get_equipped_item_name('off_hand') == 'vectorclip'"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "vector.first_person.sprinting": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.vector && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'vector_empty' && query.get_equipped_item_name('off_hand') == 'vectorclip'"
+            },
+            {
+              "default": "variable.vector && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "vector.first_person.aim": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'vector_empty' && query.get_equipped_item_name('off_hand') == 'vectorclip'"
+            },
+            {
+              "default": "variable.vector && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "vector.first_person.reload": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.vector && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.vector.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.vector"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "vector.third_person.draw": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.vector && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "vector.third_person.holding": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.vector && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.vector && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'vector_empty' && query.get_equipped_item_name('off_hand') == 'vectorclip'"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "vector.third_person.sprinting": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.vector && query.is_sneaking"
+            },
+            {
+              "default": "variable.vector && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'vector_empty' && query.get_equipped_item_name('off_hand') == 'vectorclip'"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "vector.third_person.aim": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.vector && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'vector_empty' && query.get_equipped_item_name('off_hand') == 'vectorclip'"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "vector.third_person.reload": "variable.vector"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.vector && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.vector"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

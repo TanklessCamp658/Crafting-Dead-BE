@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.awp.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.awp"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "awp.first_person.draw": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.awp && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "awp.first_person.holding": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.awp && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.awp && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'awp_empty' && query.get_equipped_item_name('off_hand') == 'awpclip'"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "awp.first_person.sprinting": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.awp && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'awp_empty' && query.get_equipped_item_name('off_hand') == 'awpclip'"
+            },
+            {
+              "default": "variable.awp && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "awp.first_person.aim": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'awp_empty' && query.get_equipped_item_name('off_hand') == 'awpclip'"
+            },
+            {
+              "default": "variable.awp && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "awp.first_person.reload": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.awp && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.awp.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.awp"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "awp.third_person.draw": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.awp && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "awp.third_person.holding": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.awp && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.awp && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'awp_empty' && query.get_equipped_item_name('off_hand') == 'awpclip'"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "awp.third_person.sprinting": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.awp && query.is_sneaking"
+            },
+            {
+              "default": "variable.awp && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'awp_empty' && query.get_equipped_item_name('off_hand') == 'awpclip'"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "awp.third_person.aim": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.awp && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'awp_empty' && query.get_equipped_item_name('off_hand') == 'awpclip'"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "awp.third_person.reload": "variable.awp"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.awp && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.awp"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

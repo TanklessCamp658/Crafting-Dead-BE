@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mossberg500.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.mossberg500"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "mossberg500.first_person.draw": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mossberg500 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "mossberg500.first_person.holding": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mossberg500 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.mossberg500 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mossberg500_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "mossberg500.first_person.sprinting": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mossberg500 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mossberg500_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "default": "variable.mossberg500 && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "mossberg500.first_person.aim": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mossberg500_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "default": "variable.mossberg500 && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "mossberg500.first_person.reload": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mossberg500 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.mossberg500.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.mossberg500"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "mossberg500.third_person.draw": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mossberg500 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "mossberg500.third_person.holding": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mossberg500 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.mossberg500 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mossberg500_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "mossberg500.third_person.sprinting": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mossberg500 && query.is_sneaking"
+            },
+            {
+              "default": "variable.mossberg500 && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mossberg500_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "mossberg500.third_person.aim": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mossberg500 && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mossberg500_empty' && query.get_equipped_item_name('off_hand') == 'shotgunrounds'"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "mossberg500.third_person.reload": "variable.mossberg500"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mossberg500 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mossberg500"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.mac10.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.mac10"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "mac10.first_person.draw": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mac10 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "mac10.first_person.holding": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mac10 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.mac10 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mac10_empty' && query.get_equipped_item_name('off_hand') == 'mac10clip'"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "mac10.first_person.sprinting": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mac10 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mac10_empty' && query.get_equipped_item_name('off_hand') == 'mac10clip'"
+            },
+            {
+              "default": "variable.mac10 && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "mac10.first_person.aim": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mac10_empty' && query.get_equipped_item_name('off_hand') == 'mac10clip'"
+            },
+            {
+              "default": "variable.mac10 && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "mac10.first_person.reload": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mac10 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.mac10.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.mac10"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "mac10.third_person.draw": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mac10 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "mac10.third_person.holding": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mac10 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.mac10 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mac10_empty' && query.get_equipped_item_name('off_hand') == 'mac10clip'"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "mac10.third_person.sprinting": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.mac10 && query.is_sneaking"
+            },
+            {
+              "default": "variable.mac10 && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mac10_empty' && query.get_equipped_item_name('off_hand') == 'mac10clip'"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "mac10.third_person.aim": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mac10 && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'mac10_empty' && query.get_equipped_item_name('off_hand') == 'mac10clip'"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "mac10.third_person.reload": "variable.mac10"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.mac10 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.mac10"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

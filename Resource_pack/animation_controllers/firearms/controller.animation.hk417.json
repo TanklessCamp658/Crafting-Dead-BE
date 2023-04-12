@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.hk417.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.hk417"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "hk417.first_person.draw": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.hk417 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "hk417.first_person.holding": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.hk417 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.hk417 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'hk417_empty' && query.get_equipped_item_name('off_hand') == 'hk417clip'"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "hk417.first_person.sprinting": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.hk417 && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'hk417_empty' && query.get_equipped_item_name('off_hand') == 'hk417clip'"
+            },
+            {
+              "default": "variable.hk417 && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "hk417.first_person.aim": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'hk417_empty' && query.get_equipped_item_name('off_hand') == 'hk417clip'"
+            },
+            {
+              "default": "variable.hk417 && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "hk417.first_person.reload": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.hk417 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.hk417.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.hk417"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "hk417.third_person.draw": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.hk417 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "hk417.third_person.holding": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.hk417 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.hk417 && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'hk417_empty' && query.get_equipped_item_name('off_hand') == 'hk417clip'"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "hk417.third_person.sprinting": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.hk417 && query.is_sneaking"
+            },
+            {
+              "default": "variable.hk417 && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'hk417_empty' && query.get_equipped_item_name('off_hand') == 'hk417clip'"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "hk417.third_person.aim": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.hk417 && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'hk417_empty' && query.get_equipped_item_name('off_hand') == 'hk417clip'"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "hk417.third_person.reload": "variable.hk417"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.hk417 && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.hk417"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

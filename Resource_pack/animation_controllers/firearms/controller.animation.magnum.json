@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.magnum.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.magnum"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "magnum.first_person.draw": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.magnum && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "magnum.first_person.holding": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.magnum && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.magnum && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'magnum_empty' && query.get_equipped_item_name('off_hand') == 'magnumclip'"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "magnum.first_person.sprinting": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.magnum && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'magnum_empty' && query.get_equipped_item_name('off_hand') == 'magnumclip'"
+            },
+            {
+              "default": "variable.magnum && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "magnum.first_person.aim": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'magnum_empty' && query.get_equipped_item_name('off_hand') == 'magnumclip'"
+            },
+            {
+              "default": "variable.magnum && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "magnum.first_person.reload": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.magnum && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.magnum.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.magnum"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "magnum.third_person.draw": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.magnum && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "magnum.third_person.holding": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.magnum && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.magnum && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'magnum_empty' && query.get_equipped_item_name('off_hand') == 'magnumclip'"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "magnum.third_person.sprinting": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.magnum && query.is_sneaking"
+            },
+            {
+              "default": "variable.magnum && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'magnum_empty' && query.get_equipped_item_name('off_hand') == 'magnumclip'"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "magnum.third_person.aim": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.magnum && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'magnum_empty' && query.get_equipped_item_name('off_hand') == 'magnumclip'"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "magnum.third_person.reload": "variable.magnum"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.magnum && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.magnum"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

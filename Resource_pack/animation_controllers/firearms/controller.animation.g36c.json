@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.g36c.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.g36c"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "g36c.first_person.draw": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.g36c && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "g36c.first_person.holding": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.g36c && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.g36c && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'g36c_empty' && query.get_equipped_item_name('off_hand') == 'g36cclip'"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "g36c.first_person.sprinting": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.g36c && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'g36c_empty' && query.get_equipped_item_name('off_hand') == 'g36cclip'"
+            },
+            {
+              "default": "variable.g36c && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "g36c.first_person.aim": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'g36c_empty' && query.get_equipped_item_name('off_hand') == 'g36cclip'"
+            },
+            {
+              "default": "variable.g36c && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "g36c.first_person.reload": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.g36c && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.g36c.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.g36c"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "g36c.third_person.draw": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.g36c && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "g36c.third_person.holding": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.g36c && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.g36c && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'g36c_empty' && query.get_equipped_item_name('off_hand') == 'g36cclip'"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "g36c.third_person.sprinting": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.g36c && query.is_sneaking"
+            },
+            {
+              "default": "variable.g36c && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'g36c_empty' && query.get_equipped_item_name('off_hand') == 'g36cclip'"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "g36c.third_person.aim": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.g36c && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'g36c_empty' && query.get_equipped_item_name('off_hand') == 'g36cclip'"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "g36c.third_person.reload": "variable.g36c"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.g36c && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.g36c"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

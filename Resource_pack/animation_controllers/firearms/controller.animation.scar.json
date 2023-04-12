@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.scar.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.scar"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "scar.first_person.draw": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.scar && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "scar.first_person.holding": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.scar && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.scar && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'scar_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "scar.first_person.sprinting": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.scar && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'scar_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "default": "variable.scar && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "scar.first_person.aim": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'scar_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "default": "variable.scar && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "scar.first_person.reload": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.scar && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.scar.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.scar"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "scar.third_person.draw": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.scar && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "scar.third_person.holding": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.scar && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.scar && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'scar_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "scar.third_person.sprinting": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.scar && query.is_sneaking"
+            },
+            {
+              "default": "variable.scar && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'scar_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "scar.third_person.aim": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.scar && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'scar_empty' && query.get_equipped_item_name('off_hand') == 'stanag30rnd'"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "scar.third_person.reload": "variable.scar"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.scar && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.scar"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

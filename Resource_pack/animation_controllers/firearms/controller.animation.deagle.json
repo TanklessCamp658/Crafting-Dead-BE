@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.deagle.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.deagle"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "deagle.first_person.draw": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.deagle && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "deagle.first_person.holding": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.deagle && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.deagle && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'deagle_empty' && query.get_equipped_item_name('off_hand') == 'deagleclip'"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "deagle.first_person.sprinting": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.deagle && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'deagle_empty' && query.get_equipped_item_name('off_hand') == 'deagleclip'"
+            },
+            {
+              "default": "variable.deagle && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "deagle.first_person.aim": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'deagle_empty' && query.get_equipped_item_name('off_hand') == 'deagleclip'"
+            },
+            {
+              "default": "variable.deagle && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "deagle.first_person.reload": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.deagle && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.deagle.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.deagle"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "deagle.third_person.draw": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.deagle && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "deagle.third_person.holding": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.deagle && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.deagle && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'deagle_empty' && query.get_equipped_item_name('off_hand') == 'deagleclip'"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "deagle.third_person.sprinting": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.deagle && query.is_sneaking"
+            },
+            {
+              "default": "variable.deagle && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'deagle_empty' && query.get_equipped_item_name('off_hand') == 'deagleclip'"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "deagle.third_person.aim": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.deagle && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'deagle_empty' && query.get_equipped_item_name('off_hand') == 'deagleclip'"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "deagle.third_person.reload": "variable.deagle"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.deagle && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.deagle"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

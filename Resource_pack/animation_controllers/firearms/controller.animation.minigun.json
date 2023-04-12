@@ -1,0 +1,221 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.minigun.first_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.minigun"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "minigun.first_person.draw": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.minigun && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "minigun.first_person.holding": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.minigun && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.minigun && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'minigun_empty' && query.get_equipped_item_name('off_hand') == 'minigunclip'"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "minigun.first_person.sprinting": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.minigun && query.mark_variant == 0 && query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'minigun_empty' && query.get_equipped_item_name('off_hand') == 'minigunclip'"
+            },
+            {
+              "default": "variable.minigun && !query.is_sprinting"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "minigun.first_person.aim": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'minigun_empty' && query.get_equipped_item_name('off_hand') == 'minigunclip'"
+            },
+            {
+              "default": "variable.minigun && !query.is_sneaking"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "minigun.first_person.reload": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.minigun && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.minigun.third_person": {
+      "initial_state": "setup",
+      "states": {
+        "setup": {
+          "transitions": [
+            {
+              "draw": "variable.minigun"
+            }
+          ]
+        },
+        "draw": {
+          "animations": [
+            {
+              "minigun.third_person.draw": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.minigun && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ]
+        },
+        "default": {
+          "animations": [
+            {
+              "minigun.third_person.holding": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.minigun && query.is_sneaking"
+            },
+            {
+              "sprinting": "variable.minigun && query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'minigun_empty' && query.get_equipped_item_name('off_hand') == 'minigunclip'"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "sprinting": {
+          "animations": [
+            {
+              "minigun.third_person.sprinting": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "aim": "variable.minigun && query.is_sneaking"
+            },
+            {
+              "default": "variable.minigun && !query.is_sprinting"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'minigun_empty' && query.get_equipped_item_name('off_hand') == 'minigunclip'"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "aim": {
+          "animations": [
+            {
+              "minigun.third_person.aim": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.minigun && !query.is_sneaking"
+            },
+            {
+              "reloading": "q.get_equipped_item_name('main_hand') == 'minigun_empty' && query.get_equipped_item_name('off_hand') == 'minigunclip'"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ],
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true
+        },
+        "reloading": {
+          "animations": [
+            {
+              "minigun.third_person.reload": "variable.minigun"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "variable.minigun && query.all_animations_finished"
+            },
+            {
+              "setup": "!variable.minigun"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
