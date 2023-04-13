@@ -18,6 +18,8 @@ Any Youtubers or Twitch streamers are welcome to create videos using our mods an
 
 Please contact brad@nexusnode.com or Brad#8888 on Discord if you have any questions or concerns. Commercial use through the official modpack is granted (Such as adding servers through the official modpack) anything that falls outside of the official modpack requires authrorisation. 
 
+If you have any question, report bugs or want to request anything on new version for CDBE in the future, please contact tanklesscamp658#8607 on Discord or send email to tanklesscamp658@gmail.com. I will always free to answer all of your request.
+
 # Credit
 (Java Edition):
 - NEXUSNODE
